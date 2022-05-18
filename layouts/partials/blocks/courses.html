@@ -12,9 +12,9 @@
       </div>
     {{ end }}
 
-    {{ $posts := where site.RegularPages "Section" "kurser" }}
+    {{ $courses := where site.RegularPages "Section" "kurser" }}
     <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 items-stretch">
-      {{ range first 3 $posts }}
+      {{ range where $courses ".Params.featured" "==" true }}
         {{ partial "card-course.html" . }}
       {{ end }}
     </div>

@@ -16,7 +16,7 @@
       {{ range .features }}
         <div class="relative">
           <dt>
-            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-secondary text-white">
+            <div class="absolute flex items-center justify-center h-12 w-12 rounded-md bg-green-500 text-white">
               {{ if .icon }}
                 {{ $icon := (printf "%s%s%s" "icons/" .icon ".svg" ) }}
                 {{ partial $icon . }}

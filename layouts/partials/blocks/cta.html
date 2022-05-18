@@ -1,0 +1,18 @@
+<div class="relative bg-white py-12 lg:py-20 px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-md text-center sm:max-w-3xl">
+    {{ with .heading }}
+      <h2 class="text-3xl sm:text-4xl font-semibold leading-tight text-primary md:text-5xl">{{ . }}</h2>
+    {{ end }}
+    {{ with .subheading }}
+      <p class="mt-6 max-w-2xl text-lg sm:text-xl text-slate-500 lg:mx-auto">{{ . }}</p>
+    {{ end }}
+  </div>
+  {{ with .text }}
+    <div class="mt-12 mx-auto prose prose-lg">{{ . | markdownify }}</div>
+  {{ end }}
+  {{ with .button }}
+    <div class="text-center mt-12">
+      <a href="{{ .url | relURL }}" class="inline-block px-12 py-3 bg-green-500 hover:bg-green-600 text-white rounded font-medium">{{ .text }}</a>
+    </div>
+  {{ end }}
+</div>

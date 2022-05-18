@@ -12,7 +12,7 @@
           <button
             @click="mobile = ! mobile"
             type="button"
-            class="inline-flex items-center justify-center text-gray-900 hover:text-green-600 focus:outline-none"
+            class="inline-flex items-center justify-center text-gray-900 hover:text-green-500 focus:outline-none"
             aria-expanded="false"
           >
             <span class="sr-only">Toggle main menu</span>
@@ -50,14 +50,14 @@
                 <button
                   type="button"
                   @click.prevent="dropdown = ! dropdown"
-                  :class="{ 'text-green-600': dropdown, 'text-gray-900': !(dropdown) }"
-                  class="group inline-flex tracking-wide transform-none items-center text-base font-medium {{ if $active }}text-green-600{{ else }}text-gray-900{{ end }} hover:text-green-600 focus:outline-none"
+                  :class="{ 'text-green-500': dropdown, 'text-gray-900': !(dropdown) }"
+                  class="group inline-flex tracking-wide transform-none items-center text-base font-medium {{ if $active }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500 focus:outline-none"
                   aria-expanded="false"
                 >
                   <span>{{ .name }}</span>
                   <svg
-                    :class="{ 'text-green-600 rotate-180': dropdown, 'text-gray-900 transform-none': !(dropdown) }"
-                    class="text-green-600 ml-0.5 h-5 w-5 group-hover:text-green-600"
+                    :class="{ 'text-green-500 rotate-180': dropdown, 'text-gray-900 transform-none': !(dropdown) }"
+                    class="text-green-500 ml-0.5 h-5 w-5 group-hover:text-green-500"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
@@ -85,9 +85,9 @@
                   <div class="overflow-hidden rounded-lg shadow-lg">
                     <div class="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                       {{ range .children }}
-                        <a href="{{ .url | relURL }}" class="-m-3 flex items-start group rounded-lg p-3 hover:text-green-600 hover:bg-gray-50">
+                        <a href="{{ .url | relURL }}" class="-m-3 flex items-start group rounded-lg p-3 hover:text-green-500 hover:bg-gray-50">
                           {{ if .icon }}
-                            <div class="group-hover:text-green-600 flex-shrink-0 mr-3">
+                            <div class="group-hover:text-green-500 flex-shrink-0 mr-3">
                               {{ $icon := (printf "%s%s%s" "icons/" .icon ".svg" ) }}
                               {{ partial $icon . }}
                             </div>
@@ -105,7 +105,7 @@
                 </div>
               </div>
             {{ else }}
-              <a href="{{ if in .url "http" }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}" class="text-base tracking-wide font-medium {{ if $active }}text-green-600{{ else }}text-gray-900{{ end }} hover:text-green-600"{{ if in .url "http" }} target="_blank"{{ end }}> {{ .name }} </a>
+              <a href="{{ if in .url "http" }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}" class="text-base tracking-wide font-medium {{ if $active }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500"{{ if in .url "http" }} target="_blank"{{ end }}> {{ .name }} </a>
             {{ end }}
           {{ end }}
         </nav>
@@ -134,7 +134,7 @@
             <div x-data="{ accordion: false }">
               <a
                 href="#"
-                class="flex items-center rounded px-4 py-3 text-lg font-medium text-gray-900 hover:text-green-600 hover:bg-gray-50"
+                class="flex items-center rounded px-4 py-3 text-lg font-medium text-gray-900 hover:text-green-500 hover:bg-gray-50"
                 @click.prevent="accordion = ! accordion"
               >
                 <span class="flex-1">{{ .name }}</span>
@@ -154,9 +154,9 @@
               </a>
               <div x-show="accordion" :class="{ 'block': accordion, 'hidden': !(accordion) }">
                 {{ range .children }}
-                  <a href="{{ .url | relURL }}" class="ml-4 flex items-center group rounded px-4 py-3 text-gray-900 hover:text-green-600 hover:bg-gray-50">
+                  <a href="{{ .url | relURL }}" class="ml-4 flex items-center group rounded px-4 py-3 text-gray-900 hover:text-green-500 hover:bg-gray-50">
                     {{ if .icon }}
-                      <div class="text-gray-900 flex-shrink-0 mr-2.5 group-hover:text-green-600">
+                      <div class="text-gray-900 flex-shrink-0 mr-2.5 group-hover:text-green-500">
                         {{ $icon := (printf "%s%s%s" "icons/" .icon ".svg" ) }}
                         {{ partial $icon . }}
                       </div>
@@ -168,7 +168,7 @@
               </div>
             </div>
           {{ else }}
-            <a href="{{ if in .url "http" }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}" class="block rounded px-4 py-3 text-lg font-medium text-gray-900 hover:text-green-600 hover:bg-gray-50" 
+            <a href="{{ if in .url "http" }}{{ .url }}{{ else }}{{ .url | relURL }}{{ end }}" class="block rounded px-4 py-3 text-lg font-medium text-gray-900 hover:text-green-500 hover:bg-gray-50" 
             {{ if in .url "http" }} target="_blank"{{ end }}>{{ .name }}</a>
           {{ end }}
         {{ end }}

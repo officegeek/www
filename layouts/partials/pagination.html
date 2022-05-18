@@ -19,7 +19,7 @@
     <nav class="flex items-center justify-between px-4 sm:px-0">
     <div class="flex flex-1 w-0">
     {{ if $paginator.HasPrev }}
-        <a href="{{ $paginator.Prev.URL }}#posts" class="inline-flex items-center pr-1 text-lg font-normal text-slate-900 hover:text-pink-600">
+        <a href="{{ $paginator.Prev.URL }}#posts" class="inline-flex items-center pr-1 text-lg font-normal text-gray-900 hover:text-green-500">
             <!-- Heroicon name: arrow-narrow-left -->
             <svg class="w-5 h-5 mr-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
             <path fill-rule="evenodd" d="M7.707 14.707a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 1.414L5.414 9H17a1 1 0 110 2H5.414l2.293 2.293a1 1 0 010 1.414z" clip-rule="evenodd" />
@@ -79,7 +79,7 @@
       <div class="hidden md:-mt-px md:flex">
       <!-- Output page numbers. -->
       {{ if eq ($.Scratch.Get "page_number_flag") true }}
-        <a href="{{ .URL }}#posts" class="{{ if eq . $paginator }} text-pink-600 {{else }} text-slate-900 hover:text-pink-600 {{ end }} px-4 inline-flex items-center text-lg font-normal">
+        <a href="{{ .URL }}#posts" class="{{ if eq . $paginator }} text-green-500 {{else }} text-gray-900 hover:text-green-500 {{ end }} px-4 inline-flex items-center text-lg font-normal">
             {{ .PageNumber }}
         </a>
       {{ end }}
@@ -91,7 +91,7 @@
     <div class="flex justify-end flex-1 w-0 -mt-px">
     {{ if $paginator.HasNext }}
 
-        <a href="{{ $paginator.Next.URL }}#posts" class="inline-flex items-center pl-1 text-lg font-normal text-slate-900 hover:text-pink-600">
+        <a href="{{ $paginator.Next.URL }}#posts" class="inline-flex items-center pl-1 text-lg font-normal text-gray-900 hover:text-green-500">
             Next
             <!-- Heroicon name: arrow-narrow-right -->
             <svg class="w-5 h-5 ml-3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">

@@ -1,11 +1,11 @@
 <div x-data="{ dropdown: false }" class="relative mb-6 lg:hidden">
   <a @click.prevent="dropdown = ! dropdown" href="#" 
-    :class="{ 'text-indigo-600': dropdown, 'text-gray-900': !(dropdown) }"
-    class="dropdown-btn relative w-full group lg:hidden text-lg text-gray-900 font-semibold hover:text-indigo-600 py-2 flex items-center justify-center">
+    :class="{ 'text-green-500': dropdown, 'text-gray-900': !(dropdown) }"
+    class="dropdown-btn relative w-full group lg:hidden text-lg text-gray-900 font-semibold hover:text-green-500 py-2 flex items-center justify-center">
     <span>Categories</span>
     <svg
-      :class="{ 'text-indigo-600 dark:text-indigo-600 rotate-180': dropdown, 'text-gray-900 dark:text-white transform-none': !(dropdown) }"
-      class="text-indigo-600 ml-0.5 mt-0.5 h-6 w-6 group-hover:text-indigo-600 dark:group-hover:text-indigo-600"
+      :class="{ 'text-green-500 dark:text-green-500 rotate-180': dropdown, 'text-gray-900 dark:text-white transform-none': !(dropdown) }"
+      class="text-green-500 ml-0.5 mt-0.5 h-6 w-6 group-hover:text-green-500 dark:group-hover:text-green-500"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 20 20"
       fill="currentColor"
@@ -29,17 +29,17 @@
     x-transition:leave-end="opacity-0 translate-y-1"
     @click.outside="dropdown = false"
    class="absolute z-10 w-full bg-white rounded-lg shadow-xl hidden py-2.5 text-lg font-medium">
-   <a class="{{ if in .Permalink "/kurser/" }}text-indigo-600{{ else }}text-gray-900{{ end }} hover:text-indigo-600 block px-5 py-3" href="{{ "/kurser/" | relURL }}">All posts</a>
+   <a class="{{ if in .Permalink "/kurser/" }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500 block px-5 py-3" href="{{ "/kurser/" | relURL }}">All posts</a>
    {{ range site.Taxonomies.kategorier }}
-      <a class="{{ if eq .Page.Permalink $.Permalink }}text-indigo-600{{ else }}text-gray-900{{ end }} hover:text-indigo-600 block px-5 py-3" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+      <a class="{{ if eq .Page.Permalink $.Permalink }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500 block px-5 py-3" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
     {{ end }}
   </div>
 </div>
 <div class="hidden lg:block">
   <div class="flex space-x-6 justify-center font-medium text-lg">
-    <a class="{{ if in .Permalink "/kurser/" }}text-indigo-600{{ else }}text-gray-900{{ end }} hover:text-indigo-600" href="{{ "/kurser/" | relURL }}">All posts</a>
+    <a class="{{ if in .Permalink "/kurser/" }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500" href="{{ "/kurser/" | relURL }}">All posts</a>
     {{ range site.Taxonomies.kategorier }}
-      <a class="{{ if eq .Page.Permalink $.Permalink }}text-indigo-600{{ else }}text-gray-900{{ end }} hover:text-indigo-600" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
+      <a class="{{ if eq .Page.Permalink $.Permalink }}text-green-500{{ else }}text-gray-900{{ end }} hover:text-green-500" href="{{ .Page.Permalink }}">{{ .Page.Title }}</a>
     {{ end }}
   </div>
 </div>
