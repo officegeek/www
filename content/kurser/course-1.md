@@ -1,6 +1,6 @@
 ---
 title: Course 1
-image: https://dummyimage.com/600/ccc/ccc
+image: https://dummyimage.com/1280x600/ccc/ccc
 weight: 10
 featured: true
 kategorier:

@@ -6,18 +6,14 @@
       </div>
     {{ end }}
     <div class="p-6">
-      <h3 class="text-2xl lg:text-3xl leading-tight text-green-500 font-bold">{{ .Title }}</h3>
-
+      <h3 class="text-2xl lg:text-2xl leading-tight text-green-500 font-semibold">{{ .Title }}</h3>
       {{ with .Summary }}<div class="mt-4 text-[1.063rem] text-gray-900">{{ . }}</div>{{ end }}
-      <div class="mt-4 text-slate-900 hidden">
-        {{ if .Params.categories }}
-          {{ range .Params.categories }}{{ . }}{{ end }}
-        {{ end }}  
-      </div>
       <div class="mt-4 flex justify-between items-center">
-          <time datetime="2020-03-16" class="text-gray-900">
-            {{ dateFormat "January 02, 2006" .Date }}
-          </time>
+          <div class="text-gray-700 uppercase tracking-widest text-xs font-semibold">
+            {{ if .Params.kategorier }}
+              {{ range .Params.kategorier }}{{ . }}{{ end }}
+            {{ end }}    
+          </div>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-9 w-9 text-green-500" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M14 5l7 7m0 0l-7 7m7-7H3" />
         </svg>
