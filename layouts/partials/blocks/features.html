@@ -1,0 +1,58 @@
+<div class="{{ .background }}">
+  <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-24">
+
+    {{ if or .heading .subheading }}
+      <div class="text-center mb-12 lg:mb-24">
+        {{ with .heading }}
+          <h2 class="text-3xl sm:text-4xl font-semibold leading-tight text-primary md:text-5xl">{{ . }}</h2>
+        {{ end }}
+        {{ with .subheading }}
+          <p class="mt-6 max-w-2xl text-lg sm:text-xl text-slate-500 lg:mx-auto">{{ . }}</p>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ range $i,$p := .features }}
+      <div id="{{ .heading | urlize }}" class="grid lg:grid-cols-2 gap-10{{if ne $i 0}} mt-12 lg:mt-24{{end}} items-center">
+        <div class="flex flex-col justify-center">
+          <div class="max-w-xl{{if not (modBool $i 2)}} lg:ml-8{{end}}">
+            <h2 class="max-w-lg mb-6 text-2xl sm:text-3xl font-semibold leading-tight text-primary md:text-4xl">{{ .heading }}</h2>
+            <div class="prose">{{ .text | markdownify }}</div>
+            {{ if .list }}
+              {{ $icon := newScratch }}
+              {{ $icon.Set "icon" .icon }}
+              <ul class="space-y-4 mt-7 text-slate-700">
+                {{ range .list }}
+                  <li class="flex items-center">
+                    {{ if eq ($icon.Get "icon") "star" }}
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z" />
+                      </svg>                    
+                    {{ else if eq ($icon.Get "icon") "fast-forward" }}
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.933 12.8a1 1 0 000-1.6L6.6 7.2A1 1 0 005 8v8a1 1 0 001.6.8l5.333-4zM19.933 12.8a1 1 0 000-1.6l-5.333-4A1 1 0 0013 8v8a1 1 0 001.6.8l5.333-4z" />
+                      </svg>
+                    {{ else if eq ($icon.Get "icon") "clipboard-check" }}
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 stroke-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                      </svg>
+                    {{ else }}
+                      <svg class="w-6 h-6 flex-none fill-blue-100 stroke-blue-500 stroke-2" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="11" />
+                        <path d="m8 13 2.165 2.165a1 1 0 0 0 1.521-.126L16 9" fill="none" />
+                      </svg>
+                    {{ end }}
+                    <p class="ml-3">{{ . }}</p>
+                  </li>
+                {{ end }}
+              </ul>
+            {{ end }}            
+          </div>
+        </div>
+        <div{{if not (modBool $i 2)}} class="lg:order-first"{{end}}>
+          <img class="w-full rounded-lg" src="{{ .image | absURL }}" alt="{{ .heading }}" />
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
