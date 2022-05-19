@@ -1,84 +1,33 @@
-
-<div x-bind="modalContactWindow" class="fixed inset-0 overflow-y-auto z-[99]" role="dialog" aria-modal="true" aria-labelledby="modal-contact" style="display: none;">
-  <div x-show="modalContactShow" x-transition.opacity="" class="fixed inset-0 bg-black bg-opacity-50" aria-hidden="true"></div>
-  <div x-show="modalContactShow" x-transition="" x-on:click="modalContactShow = false"
-    class="relative min-h-screen flex items-center justify-center p-4">
-    <div x-on:click.stop=""
-      class="relative max-w-2xl w-full bg-white rounded-lg shadow-lg p-12 overflow-y-auto">
-
-      <button type="button" x-on:click="modalContactShow = false"
-        class="bg-white hover:bg-slate-100 p-2 text-slate-500 absolute top-3 right-3">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-      </button>
-
-      <div class="text-center">
-        <h2 class="text-3xl font-extrabold tracking-tight text-primary sm:text-4xl">{{ .Site.Params.form_contact_heading }}</h2>
-        {{ with .Site.Params.form_contact_subheading }}
-          <p class="mt-4 text-lg leading-6 text-gray-500">{{ . }}</p>
-        {{ end }}
-      </div>
-      <div class="mt-12">
-        <div id="contact-success" class="bg-green-50 text-green-600 p-4 text-center mb-6 rounded-md hidden">You message was sent!</div>
-        <div id="contact-error" class="bg-red-50 text-red-600 p-4 text-center mb-6 rounded-md hidden"></div>
-        <form method="POST" name="job" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" data-netlify="true" data-netlify-recaptcha="true">
-          <div>
-            <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
-            <div class="mt-1">
-              <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-priring-primary border-gray-300 rounded-md" required>
-            </div>
-          </div>
-          <div>
-            <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
-            <div class="mt-1">
-              <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-priring-primary border-gray-300 rounded-md" required>
-            </div>
-          </div>
-          <div class="sm:col-span-2">
-            <label for="company" class="block text-sm font-medium text-gray-700">Company</label>
-            <div class="mt-1">
-              <input type="text" name="company" id="company" autocomplete="organization" class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-priring-primary border-gray-300 rounded-md">
-            </div>
-          </div>
-          <div class="sm:col-span-2">
-            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
-            <div class="mt-1">
-              <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-priring-primary border-gray-300 rounded-md" required>
-            </div>
-          </div>
-          <div class="sm:col-span-2">
-            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
-            <div class="mt-1">
-              <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-primary focus:border-priring-primary border border-gray-300 rounded-md" maxlength="2000" required></textarea>
-            </div>
-          </div>
-          <div class="sm:col-span-2" data-netlify-recaptcha="true"></div>          
-          <div class="sm:col-span-2">
-            <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-secondary hover:bg-secondary-dark focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary">Submit</button>
-          </div>
-        </form>
+<div class="my-12">
+  <div id="contact-success" class="bg-green-50 text-green-600 p-4 text-center mb-6 rounded-md hidden">Din besked blev sendt!</div>
+  <div id="contact-error" class="bg-red-50 text-red-600 p-4 text-center mb-6 rounded-md hidden"></div>
+  <form method="POST" name="job" class="grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8" data-netlify="true" data-netlify-recaptcha="true">
+    <div>
+      <label for="name" class="block text-sm font-medium text-gray-700">Nmae</label>
+      <div class="mt-1">
+        <input type="text" name="name" id="name" autocomplete="name" class="py-3 px-4 block w-full focus:ring-0 border-2 focus:border-green-500 border-gray-400 rounded-md" required>
       </div>
     </div>
-  </div>
+    <div>
+      <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+      <div class="mt-1">
+        <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full focus:ring-0 border-2 focus:border-green-500 border-gray-400 rounded-md" required>
+      </div>
+    </div>
+    <div class="sm:col-span-2">
+      <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+      <div class="mt-1">
+        <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full focus:ring-0 border-2 focus:border-green-500 border-gray-400 rounded-md" maxlength="2000" required></textarea>
+      </div>
+    </div>
+    <div class="sm:col-span-2" data-netlify-recaptcha="true"></div>          
+    <div class="sm:col-span-2">
+      <button type="submit" class="w-full inline-flex items-center justify-center px-6 py-3 border-2 border-green-500 hover:border-green-600 rounded-md text-base font-medium text-white bg-green-500 hover:bg-green-600 focus:outline-none">Indsend</button>
+    </div>
+  </form>
 </div>
 
 <script>
-  document.addEventListener('alpine:init', () => {
-    Alpine.data('modalContact', () => ({
-      modalContactShow: false
-    }))
-
-    Alpine.bind('modalContactWindow', () => ({
-      ['x-show']() {
-        return this.modalContactShow
-      },
-      ['x-on:keydown.escape.prevent.stop']() {
-        this.modalContactShow = false
-      },
-    }))
-  })
-
   document.forms.job.addEventListener("submit", (event) => {
     event.preventDefault();
     const jobSuccess = document.getElementById("contact-success");
@@ -87,14 +36,14 @@
       body: new FormData(event.target),
       method: "POST",
     })
-      .then(() => {
-        jobSuccess.classList.remove("hidden");
-        document.forms.job.reset();
-      })
-      .catch((error) => {
-        jobError.classList.remove("hidden");
-        jobError.innerHTML = `Failed: ${error}`;
-      });
+    .then(() => {
+      jobSuccess.classList.remove("hidden");
+      document.forms.job.reset();
+    })
+    .catch((error) => {
+      jobError.classList.remove("hidden");
+      jobError.innerHTML = `Mislykkedes: ${error}`;
+    });
   });
   
 </script>
