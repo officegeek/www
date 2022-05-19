@@ -10,6 +10,7 @@ canonifyURLs = true
 paginate = 2
 
 [taxonomies]
+  categories = 'categories'
   kategorier = 'kategorier'
 [permalinks]
   kategorier = "/:slug"
