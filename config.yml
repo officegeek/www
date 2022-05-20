@@ -1,0 +1,77 @@
+baseURL: ""
+languageCode: "en-us"
+title: "OfficeGeek"
+
+enableEmoji: true
+enableGitInfo: true
+enableRobotsTXT: true
+canonifyURLs: true
+
+paginate: 2
+
+taxonomies:
+  categories: 'categories'
+  kategorier: 'kategorier'
+permalinks:
+  kategorier: "/:slug"
+
+markup:
+  markup.goldmark:
+    markup.goldmark.renderer:
+      unsafe: true
+      
+params:
+  description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+  logo: "/images/logo.svg"
+  logo_footer: "/images/logo.svg"
+  copyright: "Lorem ipsum is placeholder text commonly used. Copyright © 2022 All Rights Reserved"
+  author: "OfficeGeek"
+  github: "#"
+  ogimage: "/images/og.png"
+  sitename: "OfficeGeek"
+  twitter: "#"
+  email: support@workcation.com
+  phone: +1 555 123-4567
+  address: Long street 24, London E16GH, United Kingdom
+
+
+  social:
+    facebook: "#"
+    youtube: "#"
+    linkedin: "#"
+
+  navbar:
+  - name: Kurser
+    url: "/kurser/"
+  - name: Webinar
+    url: "/webinar/"
+  - name: En til En
+    url: "/en-til-en/"
+  - name: Spørgsmål
+    url: "/sporgsmal/"
+  - name: Blog
+    url: "/blog/"
+  - name: Om
+    url: "/om/"
+  - name: Kontakt
+    url: "/kontakt/"
+
+  footer_1:
+  - name: Kurser
+    url: "/kurser/"
+  - name: Webinar
+    url: "/webinar/"
+  - name: En til En
+    url: "/en-til-en/"
+  - name: Spørgsmål
+    url: "/sporgsmal/"
+
+  footer_2:
+  - name: Blog
+    url: "/blog/"
+  - name: Om
+    url: "/om/"
+  - name: Kontakt
+    url: "/kontakt/"
+  - name: Terms
+    url: "/terms/"

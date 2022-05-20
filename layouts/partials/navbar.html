@@ -42,7 +42,7 @@
         </div>
         <nav class="hidden lg:flex lg:space-x-10">
           {{- $current := . -}}
-          {{ range .Site.Data.menus.navbar }}
+          {{ range .Site.Params.navbar }}
             {{ $active := in $current.RelPermalink .url }}
             {{ if .children }}
               {{ $active := in $current.RelPermalink .url }}   
@@ -127,7 +127,7 @@
     <div class="overflow-hidden bg-white">
       <div class="space-y-1 p-4 sm:p-6">
         {{- $current := . -}}
-        {{ range .Site.Data.menus.navbar }}
+        {{ range .Site.Params.navbar }}
           {{ $active := in $current.RelPermalink .url }}
           {{ if .children }}
             {{ $active := in $current.RelPermalink .url }}   
