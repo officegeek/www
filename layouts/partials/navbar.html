@@ -1,4 +1,4 @@
-<div class="bg-white" x-data="{ mobile: false }" @click.outside="mobile = false">
+<div class="bg-[#F8FBFE]" x-data="{ mobile: false }" @click.outside="mobile = false">
   <div class="px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-7xl py-5 lg:py-8">
       <div class="flex items-center justify-between lg:justify-start lg:space-x-10">
@@ -109,6 +109,16 @@
             {{ end }}
           {{ end }}
         </nav>
+        <div class="hidden items-center justify-end lg:flex lg:w-0 lg:flex-1">
+          {{ with .Site.Params.navbar_cta }}
+            <a
+              href="{{ .url }}"
+              class="inline-flex items-center tracking-wide rounded-md border border-purple-920 bg-green-500 px-8 py-2 font-medium text-white transition hover:bg-green-600 hover:text-white"
+            >
+            {{ .name }}
+            </a>
+          {{ end }}
+        </div>        
       </div>
     </div>
   </div>

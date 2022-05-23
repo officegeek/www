@@ -7,11 +7,30 @@ image:
 
 blocks:
 - block: hero
-  heading: Morbi eget neque vel turpis lacinia
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+  heading: Morbi eget nequ vel turpis lacinia
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget.
+  image: https://source.unsplash.com/vEDVIa7jHN0
   video:
     file: /images/video.mp4
     image: /images/video.jpg
+  button:
+    text: Kom igang
+    url: "#kurser"
+
+- block: pallete
+  color: blue
+  heading: Morbi eget neque vel turpis lacinia
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+  cards:
+  - heading: Fixed price, no surprises.
+    text: Simple per project pricing with no additional surprise fees. 
+    icon: currency-dollar
+  - heading: Insane work quality
+    text: Perfected over the last 12 years by industry experience.
+    icon: sparkles
+  - heading: Lightning-fast delivery
+    text: The result of refined development processes and chosen tech stack.
+    icon: lightning-bolt
 
 - block: courses
   heading: Featured Courses
