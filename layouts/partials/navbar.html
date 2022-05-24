@@ -1,4 +1,4 @@
-<div class="bg-[#F8FBFE]" x-data="{ mobile: false }" @click.outside="mobile = false">
+<div class="bg-white" x-data="{ mobile: false }" @click.outside="mobile = false">
   <div class="px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-7xl py-5 lg:py-8">
       <div class="flex items-center justify-between lg:justify-start lg:space-x-10">
@@ -113,7 +113,7 @@
           {{ with .Site.Params.navbar_cta }}
             <a
               href="{{ .url }}"
-              class="inline-flex items-center tracking-wide rounded-md border border-purple-920 bg-green-500 px-8 py-2 font-medium text-white transition hover:bg-green-600 hover:text-white"
+              class="inline-flex items-center tracking-wide rounded-md border-2 border-gray-700 bg-white px-7 py-1.5 font-medium text-gray-900 transition hover:bg-gray-900 hover:text-white"
             >
             {{ .name }}
             </a>

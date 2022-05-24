@@ -11,8 +11,8 @@ blocks:
   subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget.
   image: https://source.unsplash.com/vEDVIa7jHN0
   video:
-    file: /images/video.mp4
-    image: /images/video.jpg
+    text: Se video
+    id: LVDUbfdfBPk
   button:
     text: Kom igang
     url: "#kurser"

@@ -1,4 +1,4 @@
-<section class="bg-gradient-to-b from-[#F8FBFE] to-white px-4 sm:px-6 lg:px-8 overflow-hidden">
+<section x-data="modalVideo" class="bg-white px-4 sm:px-6 lg:px-8 overflow-hidden">
   <div class="max-w-md md:max-w-7xl mx-auto pt-10 pb-16">
     <div class="lg:flex items-center">
       <div>
@@ -8,15 +8,27 @@
         {{ with .subheading }}
           <p class="mt-3 sm:mt-8 text-slate-500 md:text-xl md:leading-loose">{{ . }}</p>
         {{ end }} 
-        {{ with .button }}
-          <a
-            {{ if eq .url "form" }} x-on:click.prevent="modalContactShow = true"{{ end }} 
-            href="{{ .url | relURL }}"
-            class="mt-5 sm:mt-12 px-12 py-2.5 sm:py-3.5 font-medium text-lg inline-block drop-shadow-2xl text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none"
+        <div class="sm:flex items-center gap-8 text-center mt-5 sm:mt-12">
+          {{ with .button }}
+            <a href="{{ .url | relURL }}"
+              class="px-10 py-2.5 sm:py-3.5 font-medium text-lg inline-block text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none"
+            >
+              {{ .text }}
+            </a>
+          {{ end }}
+          {{ with .video }}
+            <a x-on:click.prevent="modalVideoShow = true" href="{{ .url | relURL }}"
+            class="sm:py-3.5 font-medium text-lg inline-flex items-center text-green-600 rounded-lg hover:text-gray-900 focus:outline-none"
           >
-            {{ .text }}
+            <svg class="w-14 h-14 mr-3" width="64" height="64" viewbox="0 0 64 64"  fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="32" fill="#F0FDF4"></circle>
+              <path d="M40.5 31.13L26.5 23.05C26.348 22.9622 26.1755 22.916 26 22.916C25.8245 22.916 25.652 22.9622 25.5 23.05C25.3474 23.1381 25.2208 23.265 25.133 23.4177C25.0452 23.5705 24.9993 23.7438 25 23.92V40.08C24.9993 40.2562 25.0452 40.4295 25.133 40.5822C25.2208 40.735 25.3474 40.8619 25.5 40.95C25.652 41.0378 25.8245 41.084 26 41.084C26.1755 41.084 26.348 41.0378 26.5 40.95L40.5 32.87C40.6539 32.7828 40.7819 32.6563 40.871 32.5035C40.96 32.3506 41.007 32.1769 41.007 32C41.007 31.8231 40.96 31.6494 40.871 31.4965C40.7819 31.3437 40.6539 31.2172 40.5 31.13ZM27 38.35V25.65L38 32L27 38.35Z" fill="currentColor"></path>
+            </svg>
+              
+            <span>{{ .text }}</span>
           </a>
-        {{ end }}
+          {{ end }}
+        </div>
       </div>
       <div class="h-full w-full pt-10 lg:pt-0 lg:pl-24 xl:pl-32">
         {{ if .image }}
@@ -28,4 +40,33 @@
       </div>
     </div>
   </div>
+  <div x-bind="modalVideoWindow" class="fixed inset-0 overflow-y-auto z-[99]" role="dialog" aria-modal="true" aria-labelledby="modal-title-1" style="display: none;">
+    <div x-show="modalVideoShow" x-transition.opacity="" class="fixed inset-0 bg-black bg-opacity-50" aria-hidden="true"></div>
+    <div x-show="modalVideoShow" x-transition="" x-on:click="modalVideoShow = false"
+      class="relative min-h-screen flex items-center justify-center p-4">
+      <div x-on:click.stop=""
+        class="relative max-w-3xl w-full bg-white rounded-lg shadow-lg p-4 overflow-y-auto">
+        <div class="aspect-w-16 aspect-h-9">
+          <iframe class="" width="560" height="315" src="https://www.youtube.com/embed/{{ .video.id }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('alpine:init', () => {
+      Alpine.data('modalVideo', () => ({
+        modalVideoShow: false
+      }))
+
+      Alpine.bind('modalVideoWindow', () => ({
+        ['x-show']() {
+          return this.modalVideoShow
+        },
+        ['x-on:keydown.escape.prevent.stop']() {
+          this.modalVideoShow = false
+        },
+      }))
+    });
+  </script>
 </section>
