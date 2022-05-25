@@ -1,25 +1,13 @@
 {{define "main"}}
-<div class="bg-white">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 pt-8 pb-16 lg:pt-12 lg:pb-24">
-    <div class="max-w-4xl mx-auto">
-      <h1 class="text-5xl font-medium text-primary md:text-6xl leading-tight md:leading-tight text-center">{{ .Title }}</h1>
-    </div>
-    <div class="max-w-3xl mx-auto text-center">
+<div class="bg-white px-4 sm:px-6 lg:px-8">
+  <div class="max-w-3xl mx-auto py-12">
+    <div class="text-center">
+      <h1 class="text-3xl sm:text-4xl lg:text-5xl font-semibold lg:leading-tight text-gray-900">{{ .Title }}</h1>
       {{ with .Params.subheading }}
-        <p class="mt-4 text-slate-400 md:text-xl">{{ . }}</p>
+        <p class="mt-4 text-gray-800 md:text-[1.375rem]">{{ . }}</p>
       {{ end }}
     </div>
-    {{ with .Params.video }}
-      <div class="flex justify-center mt-16">
-        <iframe class="w-full rounded-lg md:w-4/5 aspect-video" src="{{ . }}" title="Video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-    {{ end }}
-    {{ with .Params.image }}
-      <div class="flex justify-center mt-16">
-        <img class="w-full rounded-lg md:w-4/5" src="{{ . | absURL }}">
-      </div>
-    {{ end }}
-    <div class="mt-16 prose mx-auto prose-h2:text-3xl prose-h3:text-2xl prose-h4:text-xl">
+    <div class="prose prose-lg hover:prose-a:text-green-500 sm:prose-h2:text-4xl max-w-none mt-12">
       {{ .Content }}
     </div>
   </div>
