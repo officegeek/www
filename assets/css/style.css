@@ -2792,6 +2792,10 @@ select {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 
+.bg-green-600\/95 {
+  background-color: rgb(22 163 74 / 0.95);
+}
+
 .bg-opacity-50 {
   --tw-bg-opacity: 0.5;
 }
