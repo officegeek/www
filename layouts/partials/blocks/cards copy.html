@@ -1,0 +1,37 @@
+<div class="relative bg-white py-12 lg:py-20 px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-md text-center sm:max-w-3xl">
+    {{ with .heading }}
+      <h2 class="text-3xl sm:text-4xl font-semibold leading-tight text-primary md:text-5xl">{{ . }}</h2>
+    {{ end }}
+    {{ with .subheading }}
+      <p class="mt-6 max-w-2xl text-lg sm:text-xl text-slate-500 lg:mx-auto">{{ . }}</p>
+    {{ end }}
+  </div>
+  <div class="mx-auto max-w-md text-center sm:max-w-3xl lg:max-w-7xl mt-16">
+    <div class="grid grid-cols-1 gap-8 lg:gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      {{ range .cards }}
+        <div class="pt-6">
+          <div class="flow-root rounded-lg bg-green-50 px-6 pb-8">
+            <div class="-mt-8">
+              <div>
+                <span class="inline-flex items-center justify-center text-white rounded-md bg-green-500 p-3 svg-8">
+                  {{ if .icon }}
+                    {{ $icon := (printf "%s%s%s" "icons/" .icon ".svg" ) }}
+                    {{ partial $icon . }}
+                  {{ end }}
+                </span>
+              </div>
+              <h3 class="mt-8 text-2xl font-bold text-gray-900">{{ .heading }}</h3>
+              <p class="mt-5 text-gray-500 text-lg">{{ .text }}</p>
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+    {{ with .button }}
+      <div class="text-center mt-12">
+        <a href="{{ .url | relURL }}" class="inline-block px-12 py-3 bg-green-500 hover:bg-green-500 text-white rounded font-medium">{{ .text }}</a>
+      </div>
+    {{ end }}
+  </div>
+</div>

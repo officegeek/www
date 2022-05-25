@@ -2,26 +2,26 @@
   <div class="max-w-md md:max-w-7xl mx-auto pt-10 pb-16">
     <div class="lg:flex items-center">
       <div>
-        <h1 class="text-4xl sm:text-5xl font-semibold md:text-[4.25rem] leading-tight md:leading-tight text-greebg-green-500">
+        <h1 class="text-5xl font-semibold md:text-[4.25rem] leading-tight md:leading-tight text-gray-900">
           {{ .heading }}
         </h1>
         {{ with .subheading }}
-          <p class="mt-3 sm:mt-8 text-slate-500 md:text-xl md:leading-loose">{{ . }}</p>
+          <p class="mt-5 sm:mt-8 text-gray-800 text-lg md:text-xl md:leading-relaxed">{{ . }}</p>
         {{ end }} 
-        <div class="sm:flex items-center gap-8 text-center mt-5 sm:mt-12">
+        <div class="flex flex-col sm:flex-row items-center gap-8 text-center mt-8 sm:mt-10">
           {{ with .button }}
             <a href="{{ .url | relURL }}"
-              class="px-10 py-2.5 sm:py-3.5 font-medium text-lg inline-block text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none"
+              class="px-10 py-3.5 font-medium text-lg inline-block text-white bg-green-500 rounded-lg hover:bg-green-600 focus:outline-none"
             >
               {{ .text }}
             </a>
           {{ end }}
           {{ with .video }}
             <a x-on:click.prevent="modalVideoShow = true" href="{{ .url | relURL }}"
-            class="sm:py-3.5 font-medium text-lg inline-flex items-center text-green-600 rounded-lg hover:text-gray-900 focus:outline-none"
+            class="sm:py-3.5 font-medium text-lg inline-flex items-center text-green-600 rounded-lg hover:text-green-700 focus:outline-none"
           >
             <svg class="w-14 h-14 mr-3" width="64" height="64" viewbox="0 0 64 64"  fill="none" xmlns="http://www.w3.org/2000/svg">
-              <circle cx="32" cy="32" r="32" fill="#F0FDF4"></circle>
+              <circle cx="32" cy="32" r="32" fill="#DCFCE7"></circle>
               <path d="M40.5 31.13L26.5 23.05C26.348 22.9622 26.1755 22.916 26 22.916C25.8245 22.916 25.652 22.9622 25.5 23.05C25.3474 23.1381 25.2208 23.265 25.133 23.4177C25.0452 23.5705 24.9993 23.7438 25 23.92V40.08C24.9993 40.2562 25.0452 40.4295 25.133 40.5822C25.2208 40.735 25.3474 40.8619 25.5 40.95C25.652 41.0378 25.8245 41.084 26 41.084C26.1755 41.084 26.348 41.0378 26.5 40.95L40.5 32.87C40.6539 32.7828 40.7819 32.6563 40.871 32.5035C40.96 32.3506 41.007 32.1769 41.007 32C41.007 31.8231 40.96 31.6494 40.871 31.4965C40.7819 31.3437 40.6539 31.2172 40.5 31.13ZM27 38.35V25.65L38 32L27 38.35Z" fill="currentColor"></path>
             </svg>
               
@@ -33,7 +33,7 @@
       <div class="h-full w-full pt-10 lg:pt-0 lg:pl-24 xl:pl-32">
         {{ if .image }}
           <div class="aspect-w-16 aspect-h-16 relative">
-            <div class="absolute bg-green-50 top-[12%] left-[12%] -bottom-5 -right-5 w-auto h-auto"></div>
+            <div class="absolute bg-green-100 top-[12%] left-[12%] -bottom-5 -right-5 w-auto h-auto"></div>
             <img src="{{ .image | absURL }}" class="rounded-tr-[4rem] rounded-bl-[4rem] w-full h-full object-center object-cover" alt="{{ .heading }}">
           </div>
         {{ end }}        

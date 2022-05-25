@@ -37,7 +37,7 @@ blocks:
 
 - block: cards
   heading: Hvorfor Officegeek
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+  subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
   cards:
@@ -53,12 +53,6 @@ blocks:
   - heading: Designed in a browser
     text: Designing in a browser allows rapid development and saves cost.
     icon: template
-  - heading: Design Revisions
-    text: We will continue to revise the design until you're 100% satisfied. 
-    icon: heart
-  - heading: Lightweight Code 
-    text: Built with Tailwind CSS and Alpine.js for the smallest production bundle.
-    icon: code
   button:
     text: Om
     url: /om/
