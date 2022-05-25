@@ -1,13 +1,15 @@
 <div class="relative group">
-  <div class="border border-slate-100 group-hover:border-green-500 rounded-xl shadow-lg shadow-green-800/10 h-full bg-white">
+  <div class="border border-slate-100 group-hover:border-green-500 rounded-xl shadow-lg shadow-green-800/10 h-full bg-white flex flex-1 flex-col justify-between">
     {{ if .Params.image }}
       <div class="aspect-w-16 aspect-h-10 rounded-t-xl overflow-hidden">
         <img class="w-full h-full object-center object-cover" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
       </div>
     {{ end }}
-    <div class="p-8">
-      <h3 class="text-2xl lg:text-2xl leading-tight text-green-500 font-semibold">{{ .Title }}</h3>
-      {{ with .Summary }}<div class="mt-4 text-[1.063rem] text-gray-900">{{ . }}</div>{{ end }}
+    <div class="p-8 flex flex-1 flex-col justify-between">
+      <div class="flex-1">
+        <h3 class="text-2xl lg:text-2xl leading-tight text-green-500 font-semibold">{{ .Title }}</h3>
+        {{ with .Summary }}<div class="mt-4 text-[1.063rem] text-gray-900">{{ . }}</div>{{ end }}
+      </div>
       <div class="mt-4 flex justify-between items-center">
           <div class="text-gray-700 uppercase tracking-widest text-xs font-semibold">
             {{ if .Params.kategorier }}
