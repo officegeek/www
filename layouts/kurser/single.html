@@ -88,9 +88,9 @@
 </div>
 {{ if .Params.related }}
   <div class="bg-white px-4 sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-7xl pb-12 lg:pb-24">
+    <div class="mx-auto max-w-md md:max-w-2xl lg:max-w-7xl pb-12">
       <h2 class="text-3xl sm:text-4xl lg:text-5xl font-semibold lg:leading-tight text-gray-900 text-center">Relaterede kurser</h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 lg:gap-8 mt-8 lg:mt-12">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mt-8 lg:mt-12">
         {{ range .Params.related }}
           {{ with site.GetPage . }}
             {{ partial "card-course.html" . }} 
