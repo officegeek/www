@@ -18,7 +18,7 @@ blocks:
     url: "#kurser"
 
 - block: courses
-  heading: Featured Courses
+  heading: Udvalgte kurser
 
 - block: cards
   heading: Hvorfor Officegeek
@@ -58,7 +58,6 @@ blocks:
 
 - block: cta
   heading: En til En
-  background: bg-green-50
   subheading: 
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis laciniat neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget. 
