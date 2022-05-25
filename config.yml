@@ -16,8 +16,8 @@ permalinks:
   kategorier: "/:slug"
 
 markup:
-  markup.goldmark:
-    markup.goldmark.renderer:
+  goldmark:
+    renderer:
       unsafe: true
       
 params:

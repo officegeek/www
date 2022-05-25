@@ -1,5 +1,5 @@
 ---
-title: Course 2
+title: Course two
 image: https://dummyimage.com/600/ccc/ccc
 weight: 20
 featured: true
