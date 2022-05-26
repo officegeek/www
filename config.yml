@@ -58,7 +58,7 @@ params:
 
   navbar_cta:
     name: Kurser
-    url: "#kurser"
+    url: "https://officegeek.netlify.app/#/ms/login"
   footer_1:
   - name: Kurser
     url: "/kurser/"
