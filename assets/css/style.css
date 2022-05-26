@@ -3718,6 +3718,10 @@ select {
     font-size: 4.25rem;
   }
 
+  .md\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+
   .md\:leading-tight {
     line-height: 1.25;
   }
@@ -3948,6 +3952,14 @@ select {
     padding-left: 6rem;
   }
 
+  .lg\:pl-12 {
+    padding-left: 3rem;
+  }
+
+  .lg\:pl-10 {
+    padding-left: 2.5rem;
+  }
+
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
@@ -3979,5 +3991,17 @@ select {
 
   .xl\:pl-32 {
     padding-left: 8rem;
+  }
+
+  .xl\:pl-24 {
+    padding-left: 6rem;
+  }
+
+  .xl\:pl-20 {
+    padding-left: 5rem;
+  }
+
+  .xl\:pl-16 {
+    padding-left: 4rem;
   }
 }
