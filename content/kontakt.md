@@ -6,8 +6,8 @@ description:
 blocks:
 - block: contact
   heading: Kontakt
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia turpis eget neque vel turpis lacinia.
+  subheading: Hvis du har spørgsmål eller andet så kontakt mig
   form:
-    heading: Send os en besked
+    heading: Send mig en besked
 
 ---
