@@ -7,7 +7,7 @@ image:
 
 blocks:
 - block: hero
-  heading: Styrk dine it kundskaber med "just-in-time" learning
+  heading: Styrk dine it kundskaber med <br> "just-in-time" learning
   subheading: Jeg tilbuder online kurser med et klart fokus.
   image: https://source.unsplash.com/vEDVIa7jHN0
   video:
