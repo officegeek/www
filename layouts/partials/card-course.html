@@ -24,8 +24,6 @@
       </div>
     </div>
   </div>
-  {{ with .Params.price }}
-    <div class="absolute top-8 left-8 bg-white font-medium text-[0.9375rem] rounded px-2.5 pt-1 pb-0.5 text-green-500">{{ . }}</div>
-  {{ end }}
+  <div class="absolute top-8 left-8 bg-white font-medium text-[0.9375rem] rounded px-2.5 pt-1 pb-0.5 text-green-500">{{ if .Params.price }}{{ .Params.price }}{{ else }}Gratis{{ end }}</div>
   <a class="absolute inset-0" href="{{ .Permalink }}" title="{{ .Title }}"></a>
 </div>

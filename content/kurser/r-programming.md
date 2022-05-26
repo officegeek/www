@@ -6,7 +6,7 @@ weight: 10
 featured: true
 kategorier:
 - python
-price: 499 kr
+price: 499 kr # leave blank for free course
 signup_link: "#/ms/signup/62876eb13d443600044d250d"
 content_id: r-introduktion-lessons
 

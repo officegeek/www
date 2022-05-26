@@ -6,7 +6,7 @@ weight: 11
 featured: true
 kategorier:
 - python
-price: Free
+price: # leave blank for free course
 signup_link: "#/ms/signup/62876e7c3d443600044d2507"
 content_id: free-course-lessons
 
