@@ -26,13 +26,11 @@ includes:
 sections:
 - heading: Course section one
   lessons:
-  - lektie-1
-  - lektie-2
+  - introduktion-to-free
   
 - heading: Course section two
   lessons:
-  - lektie-3
-  - lektie-4
+  - plot-free
 
 related:
 - course-2
