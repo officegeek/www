@@ -42,7 +42,7 @@ blocks:
     text: Om
     url: /om/
 
-- block: cta
+- block: content
   heading: Webinar
   subheading: 
   text: |-
