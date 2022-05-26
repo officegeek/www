@@ -7,7 +7,8 @@ featured: true
 kategorier:
 - python
 price: 499 kr
-buy_link: "#/ms/signup/62876eb13d443600044d250d"
+signup_link: "#/ms/signup/62876eb13d443600044d250d"
+content_id: r-introduktion-lessons
 
 includes:
 - text: Epsumes ipsum dolorem
