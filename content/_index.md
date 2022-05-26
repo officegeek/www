@@ -8,7 +8,7 @@ image:
 blocks:
 - block: hero
   heading: Morbi eget nequ vel turpis lacinia
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget.
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia eget.
   image: https://source.unsplash.com/vEDVIa7jHN0
   video:
     text: Se video
@@ -19,6 +19,7 @@ blocks:
 
 - block: courses
   heading: Udvalgte kurser
+  subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
 
 - block: cards
   heading: Hvorfor Officegeek
@@ -44,7 +45,7 @@ blocks:
 
 - block: content
   heading: Webinar
-  subheading: 
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia 
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis laciniat neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget. 
 
@@ -58,9 +59,9 @@ blocks:
 
 - block: cta
   heading: En til En
-  subheading: 
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia 
   text: |-
-    Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis laciniat neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget. 
+    Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis laciniat neque vel turpis lacinia eget nequeet. 
 
   button:
     text: En til En

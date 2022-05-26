@@ -1,6 +1,6 @@
 ---
 title: Om
-subheading: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+subheading: Duis aute irure dolor in reprehende voluptate velit esse cillum
 
 description:
 layout: page

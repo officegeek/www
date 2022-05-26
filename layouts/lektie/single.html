@@ -4,7 +4,7 @@
     <div class="rounded-xl bg-green-50 p-6 sm:p-10 lg:p-16">
       <h1 class="text-3xl sm:text-4xl md:text-5xl font-semibold"> {{ .Title }} </h1>
       {{ with .Summary }}
-        <p class="mt-8 text-lg sm:text-xl text-gray-800 max-w-2xl">{{ . }}</p>
+        <p class="mt-8 text-[1.375rem] text-gray-800 max-w-2xl">{{ . }}</p>
       {{ end }}
       
       {{ with site.GetPage .Params.course }}
