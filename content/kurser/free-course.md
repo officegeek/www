@@ -7,7 +7,7 @@ featured: true
 kategorier:
 - python
 price: Free
-buy_url: "#"
+buy_link: "#/ms/signup/62876e7c3d443600044d2507"
 
 includes:
 - text: Epsumes ipsum dolorem

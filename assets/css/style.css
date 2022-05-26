@@ -1971,6 +1971,10 @@ select {
   max-width: 72rem;
 }
 
+.max-w-\[12rem\] {
+  max-width: 12rem;
+}
+
 .flex-none {
   flex: none;
 }
@@ -3592,6 +3596,18 @@ select {
 @media (min-width: 1024px) {
   .lg\:left-1\/2 {
     left: 50%;
+  }
+
+  .lg\:right-0 {
+    right: 0px;
+  }
+
+  .lg\:right-4 {
+    right: 1rem;
+  }
+
+  .lg\:-right-4 {
+    right: -1rem;
   }
 
   .lg\:col-span-2 {
