@@ -2,7 +2,7 @@
   <div class="border border-slate-100 group-hover:border-green-500 rounded-xl shadow-lg shadow-green-800/10 h-full bg-white flex flex-1 flex-col justify-between">
     {{ if .Params.image }}
       <div class="aspect-w-16 aspect-h-10 rounded-t-xl overflow-hidden">
-        <img class="w-full h-full object-center object-cover" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        <img class="w-full h-full object-center object-cover" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
       </div>
     {{ end }}
     <div class="p-8 flex flex-1 flex-col justify-between">
