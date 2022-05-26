@@ -8,7 +8,7 @@ image:
 blocks:
 - block: faq
   heading: Spørgsmål
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+  subheading: Her har jeg samlet de mest almendelige spørgsmål.
   faqs:
   - title: How does it work?
     content: |- 
