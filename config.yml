@@ -24,7 +24,7 @@ params:
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   logo: "/images/logo.svg"
   logo_footer: "/images/logo.svg"
-  copyright: "Lorem ipsum is placeholder text commonly used. Copyright © 2022 All Rights Reserved"
+  copyright: "Copyright © 2022"
   author: "OfficeGeek"
   github: "#"
   ogimage: "/images/og.png"
