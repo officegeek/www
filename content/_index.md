@@ -22,8 +22,8 @@ blocks:
   subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
 
 - block: cards
-  heading: Hvorfor Officegeek?
-  subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+  heading: Hvorfor OfficeGeek?
+  subheading: Jeg har siden 1995 undervist rigtig mange glade kursister.
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
   cards:
