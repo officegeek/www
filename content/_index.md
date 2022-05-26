@@ -7,8 +7,8 @@ image:
 
 blocks:
 - block: hero
-  heading: Morbi eget nequ vel turpis lacinia
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia eget.
+  heading: XX Morbi eget nequ vel turpis lacinia
+  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget.
   image: https://source.unsplash.com/vEDVIa7jHN0
   video:
     text: Se video
@@ -22,7 +22,7 @@ blocks:
   subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
 
 - block: cards
-  heading: Hvorfor Officegeek
+  heading: Hvorfor Officegeek?
   subheading: Morbi eget neque vel turpis turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
