@@ -2,7 +2,7 @@
   <div class="col-span-3 md:col-span-1">
     {{ if .Params.image }}
       <a href="{{ .Permalink }}" class="aspect-w-16 aspect-h-10 md:aspect-h-16 rounded-lg overflow-hidden block">
-        <img class="w-full h-full object-center object-cover" src="{{ .Params.image | relURL }}" alt="{{ .Title }}">
+        <img class="w-full h-full object-center object-cover" src="{{ .Params.image | absURL }}" alt="{{ .Title }}">
       </a>
     {{ end }}
   </div>
