@@ -6,7 +6,7 @@
     </div>
     {{ $paginator := .Paginator }}
     {{ $paginator := .Paginate (where .Pages "Type" "posts") }}
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 mt-8 lg:mt-12">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 mt-8 lg:mt-12">
       {{ range $paginator.Pages }}
         {{ partial "card-post.html" . }} 
       {{ end }}

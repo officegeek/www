@@ -2138,6 +2138,10 @@ select {
   gap: 4rem;
 }
 
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .gap-x-3 {
   -moz-column-gap: 0.75rem;
        column-gap: 0.75rem;
@@ -3737,6 +3741,14 @@ select {
 
   .lg\:gap-12 {
     gap: 3rem;
+  }
+
+  .lg\:gap-16 {
+    gap: 4rem;
+  }
+
+  .lg\:gap-14 {
+    gap: 3.5rem;
   }
 
   .lg\:gap-x-16 {
