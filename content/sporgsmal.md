@@ -8,11 +8,11 @@ image:
 blocks:
 - block: faq
   heading: Spørgsmål
-  subheading: Her har jeg samlet de mest almendelige spørgsmål.
+  subheading: De mest almendelige spørgsmål.
   faqs:
-  - title: How does it work?
+  - title: Hvor lang tid har jeg adgang til et kursus?
     content: |- 
-      Everything is completely async, no time is wasted in meetings. Manage your project design and development queue using Trello. Share your design files, Google docs, wireframes, or videos directly in the Trello cards. View active, queued, and completed tasks with ease. Invite your team, so anyone can submit requests and track their progress. View work progress on staging server.
+      Når du har betalt for et kursus har du adgang til dette kursus i al den tid du behøver. Adgangen udløber ikke.
 
   - title: How fast will my project be completed?
     content: |- 
