@@ -1,12 +1,12 @@
 ---
-title: Course one
+title: Free Course
 summary: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
 image: https://dummyimage.com/1280x600/ccc/ccc
 weight: 11
 featured: true
 kategorier:
 - python
-price: 299
+price: Free
 buy_url: "#"
 
 includes:

@@ -6,7 +6,7 @@ weight: 10
 featured: true
 kategorier:
 - python
-price: 499
+price: 499 kr
 buy_url: "#"
 
 includes:
