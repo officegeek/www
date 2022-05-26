@@ -57,7 +57,7 @@ params:
     url: "/kontakt/"
 
   navbar_cta:
-    name: Kurser
+    name: Log på
     url: "https://officegeek.netlify.app/#/ms/login"
   footer_1:
   - name: Kurser
