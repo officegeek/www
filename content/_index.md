@@ -45,9 +45,10 @@ blocks:
 
 - block: content
   heading: Webinar
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia 
+  subheading: Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
   text: |-
-    Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis laciniat neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget. 
+    Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
+    Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden
 
   video:
     file: images/video.mp4
