@@ -7,8 +7,8 @@ image:
 
 blocks:
 - block: hero
-  heading: XX Morbi eget nequ vel turpis lacinia
-  subheading: Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget.
+  heading: Styrk dine it kundskaber med "just-in-time" learning
+  subheading: Jeg tilbuder online kurser med et klart fokus.
   image: https://source.unsplash.com/vEDVIa7jHN0
   video:
     text: Se video
