@@ -33,8 +33,8 @@ blocks:
   - heading: Hvorfor vente
     text: Styrk dine kompetencer på et online kursus nu
     icon: sparkles
-  - heading: Lightning-fast delivery
-    text: The result of refined development processes and chosen tech stack.
+  - heading: Ingen rejsetid
+    text: Du slipper for spildtid og bestemmer selv hvad du skal have til frokost
     icon: lightning-bolt
   - heading: Designed in a browser
     text: Designing in a browser allows rapid development and saves cost.
