@@ -30,8 +30,8 @@ blocks:
   - heading: Fixed price, no surprises.
     text: Simple per project pricing with no additional surprise fees. 
     icon: currency-dollar
-  - heading: Insane work quality
-    text: Perfected over the last 12 years by industry experience.
+  - heading: Hvorfor vente
+    text: Styrk dine kompetencer på et Online kursus nu
     icon: sparkles
   - heading: Lightning-fast delivery
     text: The result of refined development processes and chosen tech stack.

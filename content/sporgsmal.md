@@ -14,13 +14,13 @@ blocks:
     content: |- 
       Når du har betalt for et kursus har du adgang til dette kursus i al den tid du behøver. Adgangen udløber ikke.
 
-  - title: How fast will my project be completed?
+  - title: Hvorfor vælge et online kursus i stedet for et almendeligt kursus?
     content: |- 
-      On average, most are completed:
+      Det er tidseffektivt, fordi du selv bestemmer, hvornår kurset skal tages. Der er langt højere fleksibilitet ved at vælge online kurser over fysisk undervisning.
 
-      - Essential package: 10 working days or less
-      - Standard package: 20 working days or less
-      - Premium package: 25 working days or less
+      - Fleksibilitet
+      - Bestem selv tempo
+      - Bedre indlæring
 
   - title: What tech stack do you use?
     content: |- 
