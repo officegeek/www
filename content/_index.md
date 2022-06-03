@@ -27,11 +27,11 @@ blocks:
   text: |-
     Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
   cards:
-  - heading: Fixed price, no surprises.
-    text: Simple per project pricing with no additional surprise fees. 
+  - heading: God økonomi
+    text: Prisen på et online kursus er lavere end et fysisk kursus
     icon: currency-dollar
   - heading: Hvorfor vente
-    text: Styrk dine kompetencer på et Online kursus nu
+    text: Styrk dine kompetencer på et online kursus nu
     icon: sparkles
   - heading: Lightning-fast delivery
     text: The result of refined development processes and chosen tech stack.
