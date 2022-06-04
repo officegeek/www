@@ -30,7 +30,7 @@ sections:
   lessons:
   - introduktion
   - rstudio
-  - simpel -syntax
+  - simpel-syntax
   - variable
 - heading: Course section two
   lessons:
