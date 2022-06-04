@@ -1,19 +1,20 @@
 ---
 title: Python for Excel brugere
+summary: Hvordan kommer du som Excel brugere i gang med at bruge Python
 image: https://github.com/officegeek/www/raw/main/assets/image/Excel_Python.jpg
 weight: 20
 featured: true
 kategorier:
-- excel
 - python
-price: 500,-
-signup_link: "#/ms/signup/62876e7c3d443600044d2507"
-content_id: Python for Excel
+- excel
+price: 499 kr
+signup_link: "#/ms/signup/62876eb13d443600044d250d"
+content_id: Python-for-Excel
 
 includes:
-- text: Automatiser dine Excel opgaver
+- text: Epsumes ipsum dolorem
   icon: clock
-- text: Erstat VBA
+- text: Lorem ipsum dolorem
   icon: play
 - text: Nemon ipsum dolor
   icon: document-text
@@ -25,19 +26,24 @@ includes:
   icon: academic-cap
 
 sections:
-- heading: Python for Excel brugere
+- heading: Course section one
   lessons:
-  - Introduktion
-  - lektie-2
-  - lektie-3
-  - lektie-4
-  - lektie-5
-  - lektie-6
+  - introduktion
+  - rstudio
+  - simpel -syntax
+  - variable
+- heading: Course section two
+  lessons:
+  - pakker
+  - help
+  - plot
+  - videre
+
+related:
+- course-2
+- course-3
 ---
-
-
-Hvordan kommer du som Excel brugere i gang med at bruge Python
 
 ## Beskrivelse
 
-Hvis du er nået til det punkt, hvor Excel ikke længere kan klare dine opgaver, så skal du begynde at overveje Python
+Hvis du er nået til det punkt, hvor Excel ikke længere kan klare dine opgaver, så skal du begynde at overveje Python.
