@@ -8,7 +8,7 @@ kategorier:
 - python
 price: 500,-
 signup_link: "#/ms/signup/62876e7c3d443600044d2507"
-content_id: python_excel
+content_id: Python for Excel
 
 includes:
 - text: Automatiser dine Excel opgaver
