@@ -8,11 +8,26 @@ kategorier:
 - python
 price: 500,-
 signup_link: "#/ms/signup/62876e7c3d443600044d2507"
-content_id: free-course-lessons
+content_id: python_excel
+
+includes:
+- text: Automatiser dine Excel opgaver
+  icon: clock
+- text: Erstat VBA
+  icon: play
+- text: Nemon ipsum dolor
+  icon: document-text
+- text: Lorem ipsum dolorem
+  icon: folder-download
+- text: Valore ipsum dolorem
+  icon: chat-alt
+- text: Lorem ipsumes dolorem
+  icon: academic-cap
+
 sections:
 - heading: Python for Excel brugere
   lessons:
-  - lektie-1
+  - Introduktion
   - lektie-2
   - lektie-3
   - lektie-4
@@ -25,4 +40,4 @@ Hvordan kommer du som Excel brugere i gang med at bruge Python
 
 ## Beskrivelse
 
-Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+Hvis du er nået til det punkt, hvor Excel ikke længere kan klare dine opgaver, så skal du begynde at overveje Python
