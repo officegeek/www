@@ -1,6 +1,6 @@
 ---
 title: Python for Excel brugere
-image: https://www.dropbox.com/s/1ft6djudj708o68/Excel_Python.jpg?dl=0
+image: https://www.dropbox.com/s/1ft6djudj708o68/Excel_Python.jpg
 weight: 20
 featured: true
 kategorier:
