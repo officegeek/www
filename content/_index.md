@@ -8,8 +8,8 @@ image:
 blocks:
 - block: hero
   heading: Styrk dine it kundskaber med <br> "just-in-time" learning
-  subheading: Jeg tilbuder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
-  image: https://source.unsplash.com/vEDVIa7jHN0
+  subheading: Jeg tilbyder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
+  image: https://source.unsplash.com/F75IfIWSqRY
   video:
     text: Se video
     id: LVDUbfdfBPk
