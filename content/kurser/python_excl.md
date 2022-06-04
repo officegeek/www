@@ -10,6 +10,7 @@ kategorier:
 price: 499 kr
 signup_link: "#/ms/signup/629b2d6f75fd210004f60a2d"
 content_id: python-for-excel
+
 includes:
 - text: Epsumes ipsum dolorem
   icon: clock
@@ -28,7 +29,7 @@ sections:
 - heading: Introduktion & Opsætning
   lessons:
   - Introduktion
-  - IDE
+  - ide
 - heading: Data import
   lessons:
   - pakker
