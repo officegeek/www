@@ -8,7 +8,7 @@ kategorier:
 - python
 - excel
 price: 499 kr
-signup_link: "#/ms/signup/62876eb13d443600044d250d"
+signup_link: "#/ms/signup/629b2d6f75fd210004f60a2d"
 content_id: python-for-excel
 includes:
 - text: Epsumes ipsum dolorem
@@ -28,6 +28,9 @@ sections:
 - heading: Introduktion & Opsætning
   lessons:
   - introduktion
+- heading: Data import
+  lessons:
+  - pakker
 - heading: Data import
   lessons:
   - pakker
