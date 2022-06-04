@@ -14,9 +14,9 @@ content_id: python-for-excel
 includes:
 - text: Epsumes ipsum dolorem
   icon: clock
-- text: Lorem ipsum dolorem
+- text: 25 videor
   icon: play
-- text: Nemon ipsum dolor
+- text: 25 Jupyter Lab kode filer
   icon: document-text
 - text: Lorem ipsum dolorem
   icon: folder-download
@@ -30,12 +30,13 @@ sections:
   lessons:
   - Introduktion
   - ide
+  - python-pakker
 - heading: Data import
   lessons:
-  - pakker
+  - python-pakker
 - heading: Data import
   lessons:
-  - pakker
+  - python-pakker
 
 related:
 - course-2
