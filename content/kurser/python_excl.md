@@ -27,7 +27,8 @@ includes:
 sections:
 - heading: Introduktion & Opsætning
   lessons:
-  - introduktion
+  - Introduktion
+  - IDE
 - heading: Data import
   lessons:
   - pakker
@@ -42,4 +43,4 @@ related:
 
 ## Beskrivelse
 
-Hvis du er nået til det punkt, hvor Excel ikke længere kan klare dine opgaver, så skal du begynde at overveje Python.
+Hvis du er nået til det punkt, hvor Excel ikke længere kan klare dine opgaver, skal du begynde at overveje Python.
