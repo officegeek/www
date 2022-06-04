@@ -2,7 +2,7 @@
 title: Introduktion
 summary: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
 weight: 10
-course: python_excel
+course: python-for-excel
 ---
 
 Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.

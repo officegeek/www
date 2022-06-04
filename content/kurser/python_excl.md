@@ -9,8 +9,7 @@ kategorier:
 - excel
 price: 499 kr
 signup_link: "#/ms/signup/62876eb13d443600044d250d"
-content_id: Python-for-Excel
-
+content_id: python-for-excel
 includes:
 - text: Epsumes ipsum dolorem
   icon: clock
@@ -26,18 +25,12 @@ includes:
   icon: academic-cap
 
 sections:
-- heading: Course section one
+- heading: Introduktion & Opsætning
   lessons:
   - introduktion
-  - rstudio
-  - simpel-syntax
-  - variable
-- heading: Course section two
+- heading: Data import
   lessons:
   - pakker
-  - help
-  - plot
-  - videre
 
 related:
 - course-2
