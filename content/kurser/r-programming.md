@@ -27,7 +27,7 @@ includes:
 sections:
 - heading: Course section one
   lessons:
-  - introduktion
+  - introduktion_r
   - rstudio
   - simpel -syntax
   - variable
