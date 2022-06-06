@@ -32,10 +32,10 @@ blocks:
     icon: currency-dollar
   - heading: Hvorfor vente
     text: Styrk dine kompetencer på et online kursus nu
-    icon: sparkles
+    icon: light-bulb
   - heading: Ingen rejsetid
     text: Du slipper for spildtid og bestemmer selv hvad du skal have til frokost
-    icon: lightning-bolt
+    icon: truck
   - heading: Designed in a browser
     text: Designing in a browser allows rapid development and saves cost.
     icon: template
