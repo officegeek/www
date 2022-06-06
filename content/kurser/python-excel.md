@@ -28,7 +28,7 @@ includes:
 sections:
 - heading: Introduktion & Opsætning
   lessons:
-  - Introduktion
+  - introduktion
   - ide
   - python-pakker
 - heading: Data import
