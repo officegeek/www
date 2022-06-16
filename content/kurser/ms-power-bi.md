@@ -7,7 +7,7 @@ featured: true
 kategorier:
 - powerbi
 price: 199
-signup_link: "#/ms/signup/62876e7c3d443600044d2507"
+signup_link: "#/ms/signup/62ab4f4008d1240004de3d6d"
 content_id: free-course-lessons
 
 includes:
