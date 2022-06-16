@@ -1,12 +1,12 @@
 ---
 title: Microsoft Power BI på én time
-summary: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. 
+summary: Er det muligt at lære Microsoft Power BI på kun én time? Nok ikke, men her får du en hurtigt introduktion. 
 image: https://dummyimage.com/1280x600/ccc/ccc
 weight: 50
 featured: true
 kategorier:
-- python
-price: # leave blank for free course
+- powerbi
+price: 199
 signup_link: "#/ms/signup/62876e7c3d443600044d2507"
 content_id: free-course-lessons
 
@@ -40,12 +40,8 @@ related:
 
 ## Beskrivelse
 
-Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text. “It's not Latin, though it looks like it, and it actually says nothing,” Before & After magazine answered a curious reader, “Its ‘words’ loosely approximate the frequency with which letters occur in English, which is why at a glance it looks pretty real.”
+Microsoft Power BI er det software-værktøj der giver dig mulighed for hurtigt at skabe et godt overblik over dine data - Du kan sige at det bygger bro mellem dine data og dem der skal tage beslutninger baseret på data.
 
-As Cicero would put it, “Um, not so fast.”
+Microsoft Power BI kan samle data fra mange forskellige datakilder og giver dig et visuelt billede af dine data ved at bruge diagrammer og lign.
 
-The placeholder text, beginning with the line “Lorem ipsum dolor sit amet, consectetur adipiscing elit”, looks like Latin because in its youth, centuries ago, it was Latin.
-
-Richard McClintock, a Latin scholar from Hampden-Sydney College, is credited with discovering the source behind the ubiquitous filler text. In seeing a sample of lorem ipsum, his interest was piqued by consectetur—a genuine, albeit rare, Latin word. Consulting a Latin dictionary led McClintock to a passage from De Finibus Bonorum et Malorum (“On the Extremes of Good and Evil”), a first-century B.C. text from the Roman philosopher Cicero.
-
-In particular, the garbled words of lorem ipsum bear an unmistakable resemblance to sections 1.10.32–33 of Cicero's work, with the most notable passage excerpted below:
+Microsoft Power BI's visuelle interface ligner det du kender fra f.eks. Excel. Hvilket gør at det er nemt for dig at komme i gang med at bruge Microsoft Power BI.
