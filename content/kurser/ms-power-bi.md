@@ -25,13 +25,14 @@ includes:
   icon: academic-cap
 
 sections:
-- heading: Course section one
+- heading: Introduktion til Power BI
   lessons:
-  - introduktion-to-free
+  - bi-paa-en-time
+  - bi-brugerfladen
   
-- heading: Course section two
+- heading: Data
   lessons:
-  - plot-free
+  - bi-data-import
 
 related:
 - course-2
