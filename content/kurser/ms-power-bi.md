@@ -8,7 +8,7 @@ kategorier:
 - powerbi
 price: 199
 signup_link: "#/ms/signup/62ab4f4008d1240004de3d6d"
-content_id: free-course-lessons
+content_id: Microsoft-Power-BI
 
 includes:
 - text: Hurtig introduktion
