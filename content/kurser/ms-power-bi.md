@@ -28,7 +28,15 @@ sections:
   
 - heading: Data
   lessons:
-  - bi-data-import
+  - bi-data
+
+- heading: Model
+  lessons:
+  - bi-model
+
+- heading: Rapport
+  lessons:
+  - bi-rapport
 
 related:
 - course-2
