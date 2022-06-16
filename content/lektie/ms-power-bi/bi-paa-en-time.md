@@ -1,5 +1,5 @@
 ---
-title: Introduktion to R
+title: Introduktion til Power BI
 summary: Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.
 weight: 10
 course: ms-power-bi

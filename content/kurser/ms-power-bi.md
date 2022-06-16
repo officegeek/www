@@ -11,18 +11,14 @@ signup_link: "#/ms/signup/62876e7c3d443600044d2507"
 content_id: free-course-lessons
 
 includes:
-- text: Epsumes ipsum dolorem
+- text: Hurtig introduktion
   icon: clock
-- text: Lorem ipsum dolorem
+- text: xx videor
   icon: play
 - text: Nemon ipsum dolor
   icon: document-text
-- text: Lorem ipsum dolorem
+- text: Download eksempel filer
   icon: folder-download
-- text: Valore ipsum dolorem
-  icon: chat-alt
-- text: Lorem ipsumes dolorem
-  icon: academic-cap
 
 sections:
 - heading: Introduktion til Power BI
