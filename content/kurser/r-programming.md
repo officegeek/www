@@ -2,7 +2,7 @@
 title: R Introduktion
 summary: This is a introduction course to R programming.
 image: https://dummyimage.com/1280x600/ccc/ccc
-weight: 10
+weight: 30
 featured: true
 kategorier:
 - python

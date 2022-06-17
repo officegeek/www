@@ -1,8 +1,8 @@
 ---
 title: Microsoft Power BI på én time
 summary: Er det muligt at lære Microsoft Power BI på kun én time? Nok ikke, men jeg kan give dig en introduktion. 
-image: https://dummyimage.com/1280x600/ccc/ccc
-weight: 50
+image: https://github.com/officegeek/www/raw/main/assets/image/bi-logo.png
+weight: 10
 featured: true
 kategorier:
 - powerbi
@@ -39,8 +39,8 @@ sections:
   - bi-rapport
 
 related:
-- course-2
-- course-3
+- python-excel
+
 ---
 
 ## Beskrivelse
