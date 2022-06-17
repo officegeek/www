@@ -36,3 +36,5 @@ Nu kan du bruge alle dine data og målinger som du har oprettet i Power BI. De r
 
 ## Video
 <div style="position: relative; padding-bottom: NaN%; height: 0;"><iframe src="https://www.loom.com/embed/ff3ac29fd6e94e5c8546976a9fbbd195" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
+<div style="position: relative; padding-bottom: 59.96309963099632%; height: 0;"><iframe src="https://www.loom.com/embed/b4684451a4274edc9bbeea82da464434" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
