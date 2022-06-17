@@ -6,7 +6,7 @@ weight: 10
 featured: true
 kategorier:
 - powerbi
-price: 199
+price: 199 kr.
 signup_link: "#/ms/signup/62ab4f4008d1240004de3d6d"
 content_id: Microsoft-Power-BI
 
@@ -25,15 +25,12 @@ sections:
   lessons:
   - bi-paa-en-time
   - bi-brugerfladen
-  
 - heading: Data
   lessons:
   - bi-data
-
 - heading: Model
   lessons:
   - bi-model
-
 - heading: Rapport
   lessons:
   - bi-rapport
