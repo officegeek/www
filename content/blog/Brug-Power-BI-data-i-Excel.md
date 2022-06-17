@@ -1,6 +1,6 @@
 ---
 title: Brug Power BI data i Excel
-image: image/bi-logo.png
+image: content/blog/image/bi-logo.png
 summary: Microsoft Power Bi er et super program til at at analysere, vise og dele dine rapport - Men hvad nu hvis du gerne vil analysere yderlige på data i Excel?
 date: 2022-06-17
 categories:
@@ -26,7 +26,7 @@ For at hente dine Power Bi data ind i Excel skal du gøre følgende:
 
 ![](image/bi-excel-2.jpg)
 
-Data modellen fra den rapport bliver nu importeret
+5. Data modellen fra den rapport bliver nu importeret
 
 ![](image/bi-excel-3.jpg)
 
