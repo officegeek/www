@@ -13,8 +13,8 @@ Power BI kan importere fra næsten alle datakilder:
 
 Til denne rapport ligger data i to af de mest almindelige data formater:
 
-- Excel fil
-- CSV fil
+- Excel
+- CSV
 
 ## Import
 Du importere data under **Hjem** fane:
@@ -29,5 +29,5 @@ Du importere data under **Hjem** fane:
 ## Download 
 Du kan hente de to data filer her:
 
-- [BI-Data.xlsx](/assets/files/BI-Data.xlsx)
-- [BI-Salg.csv](/assets/files/BI-Salg.csv)
+- ![BI-Data.xlsx](/assets/files/BI-Data.xlsx)
+- ![BI-Salg.csv](/assets/files/BI-Salg.csv)

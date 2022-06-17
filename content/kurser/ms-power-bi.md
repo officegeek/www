@@ -1,6 +1,6 @@
 ---
 title: Microsoft Power BI på én time
-summary: Er det muligt at lære Microsoft Power BI på kun én time? Nok ikke, men her får du en hurtigt introduktion. 
+summary: Er det muligt at lære Microsoft Power BI på kun én time? Nok ikke, men jeg kan give dig en introduktion. 
 image: https://dummyimage.com/1280x600/ccc/ccc
 weight: 50
 featured: true
