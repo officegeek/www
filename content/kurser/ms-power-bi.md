@@ -8,7 +8,7 @@ kategorier:
 - powerbi
 price: 199 kr.
 signup_link: "#/ms/signup/62ab4f4008d1240004de3d6d"
-content_id: Microsoft-Power-BI
+content_id: microsoft-power-bi
 
 includes:
 - text: Hurtig introduktion
