@@ -23,17 +23,17 @@ For at hente dine Power Bi data ind i Excel skal du gøre følgende:
 2. Vælg **Data** fanen
 3. **Hent data** - **Fra Power BI**
 
-![Company](/static/images/blog/bi-excel-1.jpg)
+![Company](/images/blog/bi-excel-1.jpg)
 
 4. Vælg det Power BI-datasæt du vil importere
 
-![Company](/images/blog/bi-excel-1.jpg)
+![Company](/images/blog/bi-excel-2.jpg)
 
 5. Data modellen fra den rapport bliver nu importeret
 
-![](/static/images/blog/bi-excel-1.jpg)
+![Company](/images/blog/bi-excel-3.jpg)
 
 Nu kan du bruge alle dine data og målinger som du har oprettet i Power BI. De relationer som du har oprettet i Power Bi er også aktive i Excel. Hvilket betyder at du kan kombinere data fra flere tabeller.
 
-![](./image/bi-excel-4.jpg)
+![Company](/images/blog/bi-excel-4.jpg)
 
