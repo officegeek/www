@@ -17,20 +17,28 @@ Kender du det - Du har oprettet et dashboard i Power BI som du skal præsenter.
 
 Hvis du vælger at gøre det fra Power BI kommer du sikkert til at skifte mellem din PowerPoint præsentation og Power BI
 
-Hvis du indsætter et skærm dump, er der helt sikkert en der spørger - Hvad med 4. kvartal?
+Hvis du indsætter et skærm dump, er der helt sikkert én der spørger - *Hvad med 4. kvartal?*
 
-Der er nu kommet en bedre løsning - Du kan indsætte dit dashboard i PowerPoint så du kan brugde det interaktivt!
+Der er nu kommet en bedre løsning - Du kan indsætte dit dashboard i PowerPoint så du kan brugde det **interaktivt!**
 
 ## Video
 
 
-# Indsæt
+## Indsæt live data
 Det er meget simpelt, du gør følgende:
 
 1. Publicer dit dashboard
 2. Åben dit dashboard i Office 365 - [https://app.powerbi.com](https://app.powerbi.com)
-3. Klik på Export
-4. Vælg PowerPoint > Embed live data
+3. Klik på **Export**
+
+![Company](/static/images/blog/bi-powerpoint-1.jpg)
+
+4. Vælg **PowerPoint** > **Embed live data**
+
+![Company](/static/images/blog/bi-powerpoint-2.jpg)
+
+5. Vælg **Open in PowerPoint**
+
 
 
 
