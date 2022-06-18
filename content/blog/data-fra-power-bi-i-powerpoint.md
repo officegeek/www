@@ -1,6 +1,6 @@
 ---
 title: Data fra Power Bi i PowerPoint - Interaktivt
-image: ![Company](/static/images/blog/powerbi-powerpoint.png)
+image: ![Company](/images/blog/powerbi-powerpoint.png)
 summary: Nu kan du præsentere dine Power BI data direkte i PowerPoint
 date: 2022-05-12
 categories:
@@ -31,11 +31,11 @@ Det er meget simpelt, du gør følgende:
 2. Åben dit dashboard i Office 365 - [https://app.powerbi.com](https://app.powerbi.com)
 3. Klik på **Export**
 
-![Company](/static/images/blog/bi-powerpoint-1.jpg)
+![Company](/images/blog/bi-powerpoint-1.jpg)
 
 4. Vælg **PowerPoint** > **Embed live data**
 
-![Company](/static/images/blog/bi-powerpoint-2.jpg)
+![Company](/images/blog/bi-powerpoint-2.jpg)
 
 5. Vælg **Open in PowerPoint**
 
