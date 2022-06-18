@@ -1,6 +1,6 @@
 ---
 title: Data fra Power Bi i PowerPoint - Interaktivt
-image: ![Company](/images/blog/powerbi-powerpoint.png)
+image: /images/blog/powerbi-powerpoint.png
 summary: Nu kan du præsentere dine Power BI data direkte i PowerPoint
 date: 2022-05-12
 categories:
