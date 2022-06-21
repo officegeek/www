@@ -62,10 +62,7 @@ blocks:
 - block: cta
   heading: En til En
   subheading: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver 
-  text: |-
-    Jeg kan hjælpe dig med at blive bedre til f.eks. Excel med målrettet ”En til En” undervisning. På et kursus er du en blandt mange og fokus er ikke på dine opgaver og behov. Ved ”En til En” undervisning er det dine opgaver der er i fokus og det er løsningen på dem jeg fokusere på.
-
-    Et ”En til En” forløb vil være tilrettelagt i forhold til dine konkrete opgaver, hvilket vil gøre indlæringen meget effektiv især i forhold til de problemstillinger du har i dit arbejde. Det du lærer kan direkte overføres til konkrete og aktuelle arbejdsopgaver og gør dig dermed straks mere effektiv.
+  text: |
 
   button:
     text: En til En
