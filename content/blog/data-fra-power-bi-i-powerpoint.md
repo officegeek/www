@@ -1,25 +1,27 @@
 ---
-title: Data fra Power Bi i PowerPoint - Interaktivt
-image: ![Company](/images/blog/powerbi-powerpoint.png)
+title: Data fra Power BI i PowerPoint - Interaktivt
+image: /images/blog/powerbi-powerpoint.png
 summary: Nu kan du præsentere dine Power BI data direkte i PowerPoint
-date: 2022-05-12
+date: 2022-06-14
 categories:
 - powerbi
 - powerpoint
 ---
 
-Kender du det - Du har oprettet et dashboard i Power BI som du skal præsenter. 
+Kender du det - Du har oprettet et dashboard i Power BI som du skal præsenter!
 
 *Hvad gør du?*
 
-- Gør det fra Power BI
-- Indsætter et skærm dump i PowerPoint
+- Gør det fra Power BI?
+- Indsætter et skærm dump i PowerPoint?
 
-Hvis du vælger at gøre det fra Power BI kommer du sikkert til at skifte mellem din PowerPoint præsentation og Power BI
+Hvis du vælger at gøre det fra Power BI kommer du sikkert til at skifte mellem din PowerPoint præsentation og Power BI med de problemer som det kan give.
 
 Hvis du indsætter et skærm dump, er der helt sikkert én der spørger - *Hvad med 4. kvartal?*
 
-Der er nu kommet en bedre løsning - Du kan indsætte dit dashboard i PowerPoint så du kan brugde det **interaktivt!**
+Hvad nu hvis det ikke er dig der skal præsentere men en der ikke er så teknisk?
+
+Der er nu kommet en bedre løsning - Du kan indsætte dit dashboard i PowerPoint så du kan bruge det **interaktivt!**
 
 ## Video
 

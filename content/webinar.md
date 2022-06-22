@@ -11,5 +11,3 @@ Et webinar har fokus på et bestemt emne, strækker sig kun over et begrænset t
 
 Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden.
 
-{{< youtube w7Ft2ymGmfc >}}
-
