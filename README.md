@@ -22,7 +22,7 @@ Markdown [syntax guide](https://commonmark.org/help/).
 `npm install`
 
 **To start developing:**  
-`npm run start`
+`npm run dev`
 
 **To generate the site HTML:**  
 `npm run build`
