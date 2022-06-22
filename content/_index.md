@@ -59,6 +59,10 @@ blocks:
     text: Webinar
     url: /webinar/
 
+- block: blog
+  heading: Seneste blogindlæg
+  subheading: 
+
 - block: cta
   heading: En til En
   subheading: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver 
