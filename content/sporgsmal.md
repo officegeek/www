@@ -22,4 +22,11 @@ blocks:
       - Bestem selv tempo
       - Bedre indlæring
 
+  - title: Kan jeg lære i mit eget tempo?
+    content: |-
+      Ja, du gennemfører et online kursus i det tempo der passer dig. Du kan også gå frem og tilbage i kurset.
+
+  - title: Er der specielle krav til min computer?
+    content: |-
+      Nej, for at tage kurset skal der ikke være installeret noget specielt på din computer.
 ---
