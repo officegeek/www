@@ -8,9 +8,9 @@ layout: page
 
 Jeg blev selvstændig i 1995, dengang som nu er mit fokus en blanding af konsulent opgaver og undervisning.
 
-Jeg har ikke tal på hvor mange kursister jeg har undervist igennem årene, men har nydt alle timerne.
+Jeg har ikke tal på hvor mange kursister jeg har undervist igennem årene, men jeg har nydt alle timerne.
 
-Undervisningen har været direkte for virksomheder og som underleverandør til kursus virksomheder, som f.eks. IDG-kurser, Teknologisk Institut.
+Undervisningen har været både direkte for virksomheder og som underleverandør til kursus virksomheder, som f.eks. IDG-kurser og Teknologisk Institut.
 
 I dag underviser jeg både virksomheder og uddannelses institutioner som, Kea og DTU.
 
