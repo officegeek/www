@@ -7,7 +7,8 @@ blocks:
 - block: content
   heading: Om
   subheading: Underviser og IT-problemløser
-  content: test
+
+ ishjgfsdhjg fshjdfgshjdfg
 
 - block: contact
   heading: Kontakt
