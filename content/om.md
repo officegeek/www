@@ -8,7 +8,6 @@ blocks:
   heading: Om
   subheading: Underviser og IT-problemløser
 
- ishjgfsdhjg fshjdfgshjdfg
 
 - block: contact
   heading: Kontakt
