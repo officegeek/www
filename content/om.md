@@ -4,7 +4,7 @@ title: Om
 description: Underviser og IT-problemløser
 
 blocks:
-- block: page
+- block: content
   heading: Kontakt
   subheading: Hvis du har spørgsmål eller andet så kontakt mig
   form:
