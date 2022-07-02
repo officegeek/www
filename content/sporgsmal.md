@@ -29,4 +29,5 @@ blocks:
   - title: Er der specielle krav til min computer?
     content: |-
       Nej, for at tage kurset skal der ikke være installeret noget specielt på din computer.
+      I forbindelse med online kurset kan der godt være et "krav" om at et program er installeret, f.eks. Excel eller Python 
 ---
