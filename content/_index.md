@@ -9,7 +9,7 @@ blocks:
 - block: hero
   heading: Styrk dine it kundskaber med <br> "just-in-time" learning
   subheading: Jeg tilbyder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
-  image: ../static/images/it.jpg
+  image: https://www.dropbox.com/s/whf9sjla0jlmi4n/it.jpg?dl=0
   video:
     text: Se video
     id: LVDUbfdfBPk
@@ -25,7 +25,7 @@ blocks:
   heading: Hvorfor OfficeGeek?
   subheading: Jeg har siden 1995 undervist rigtig mange glade kursister.
   text: |-
-    Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia. Morbi eget neque vel turpis lacinia eget neque vel turpis lacinia lacinia eget neque vel turpis lacinia eget neque vel turpis lacinia.
+    Officegeek
   cards:
   - heading: God økonomi
     text: Prisen på et online kursus er lavere end et fysisk kursus
