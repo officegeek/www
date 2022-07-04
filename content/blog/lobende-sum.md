@@ -1,6 +1,6 @@
 ---
 title: Løbende sum
-image: /images/blog/powerbi-powerpoint.png
+image: /images/blog/blog-lobende-sum.jpg
 summary: Oprettelse af løbende totaler
 date: 2022-07-04
 categories:
@@ -22,4 +22,4 @@ Jeg viser dig her 4 måder alt efter om dine data er i en tabel eller ikke.
 <div style="position: relative; padding-bottom: 78.42401500938087%; height: 0;"><iframe src="https://www.loom.com/embed/4454e4a6bc6e43d78bd01772833d9be4" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
 
 ## Excel fil
-[Du kan hente min Excel fil her](/files/løbende-total.xlsx)
+![Du kan hente min Excel fil her](/files/løbende-total.xlsx)
