@@ -10,7 +10,7 @@ blocks:
   heading: Styrk dine it kundskaber med <br> "just-in-time" learning
   subheading: Jeg tilbyder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
   image: https://source.unsplash.com/F75IfIWSqRY
-  video:
+  video: 
     text: Se video
     id: LVDUbfdfBPk
   button:
