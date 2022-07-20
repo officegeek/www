@@ -23,17 +23,17 @@ includes:
 sections:
 - heading: Introduktion til Power BI
   lessons:
-  - bi-paa-en-time
-  - bi-brugerfladen
+  - 10-bi-paa-en-time
+  - 20-bi-brugerfladen
 - heading: Data
   lessons:
-  - bi-data
+  - 30-bi-data
 - heading: Model
   lessons:
-  - bi-model
+  - 40-bi-model
 - heading: Rapport
   lessons:
-  - bi-rapport
+  - 50-bi-rapport
 
 related:
 - python-excel

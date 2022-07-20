@@ -9,21 +9,35 @@ En rapport uden data er ikke meget af en rapport, så det første der skal gøre
 
 Power BI kan importere fra næsten alle datakilder:
 
-![](/assets/image/bi-hent-data.jpg)
-
-[](/assets/image/bi-hent-data.jpg)
+![Hent data](../bi-hent-data.jpg)
 
 Til denne rapport ligger data i to af de mest almindelige data formater:
 
 - Excel
 - CSV
 
+**Excel filen** indeholder 3 ark:
+
+- BI-Ansatte
+- BI-Produkter
+- BI-Lokationer
+
+**CSV filen** indeholder salgs data fordelt på følgende koloner:
+
+- Saelger_id
+- Land
+- Produkt_Id
+- Dato
+- Antal
+- Indkobspris
+- Salgspris
+
 ## Import
 Du importere data under **Hjem** fane:
 
 - Hjem
 - Hent data
-- Vælg dit data format
+- Vælg dit data format (*.xlsx eller .csv i dette tilfælde*)
 
 ## Video
 
@@ -31,5 +45,5 @@ Du importere data under **Hjem** fane:
 ## Download 
 Du kan hente de to data filer her:
 
-- [BI-Data.xlsx](/assets/files/BI-Data.xlsx)
-- [BI-Salg.csv](/assets/files/BI-Salg.csv)
+- [BI-Data.xlsx](BI-Data.xlsx)
+- [BI-Salg.csv](BI-Salg.csv)
