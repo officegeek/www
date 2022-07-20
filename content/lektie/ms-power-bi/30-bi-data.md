@@ -7,9 +7,11 @@ course: ms-power-bi
 
 En rapport uden data er ikke meget af en rapport, så det første der skal gøres er at importere data.
 
+## Video
+
 Power BI kan importere fra næsten alle datakilder:
 
-![Hent data](../bi-hent-data.jpg)
+![](bi-hent-data.jpg)
 
 Til denne rapport ligger data i to af de mest almindelige data formater:
 
@@ -38,9 +40,6 @@ Du importere data under **Hjem** fane:
 - Hjem
 - Hent data
 - Vælg dit data format (*.xlsx eller .csv i dette tilfælde*)
-
-## Video
-
 
 ## Download 
 Du kan hente de to data filer her:
