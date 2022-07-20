@@ -11,7 +11,7 @@ En rapport uden data er ikke meget af en rapport, så det første der skal gøre
 
 Power BI kan importere fra næsten alle datakilder:
 
-![](bi-hent-data.jpg)
+![](./bi-hent-data.jpg)
 
 Til denne rapport ligger data i to af de mest almindelige data formater:
 
