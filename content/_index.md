@@ -7,9 +7,10 @@ image:
 
 blocks:
 - block: hero
-  heading: Styrk dine it kundskaber med <br> "just-in-time" learning
+  superheading: Welcome to officegeek
+  heading: Styrk dine it kundskaber med "just-in-time" learning
   subheading: Jeg tilbyder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
-  image: https://source.unsplash.com/F75IfIWSqRY
+  image: /images/hero.jpg
   video: 
     text: Se video
     id: LVDUbfdfBPk
