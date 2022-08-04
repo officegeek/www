@@ -18,6 +18,23 @@ blocks:
     text: Kom igang
     url: https://www.officegeek.dk/kurser
 
+- block: cards
+  heading: Why *OfficeGeek?*
+  subheading: I have been teaching a lot of happy students since 1995.
+  cards:
+  - heading: Good Economy
+    text:  The price of an online course is lower than a physical course
+    icon: bell
+  - heading: Why Wait
+    text:  Strengthen your skills on an online course now
+    icon: bell
+  - heading: No Travel Time
+    text:  You avoid wasted time and decide for yourself what to have for lunch
+    icon: bell
+  - heading: Designed in a Browser
+    text:  Designing in a browser allows rapid development and saves cost.
+    icon: bell
+
 - block: courses
   heading: Udvalgte kurser
   subheading: Find dit næste online kursus her
