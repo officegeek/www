@@ -39,28 +39,6 @@ blocks:
   heading: Udvalgte kurser
   subheading: Find dit næste online kursus her
 
-- block: cards
-  heading: Hvorfor OfficeGeek?
-  subheading: Jeg har siden 1995 undervist rigtig mange glade kursister.
-  text: |-
-    Officegeek
-  cards:
-  - heading: God økonomi
-    text: Prisen på et online kursus er lavere end et fysisk kursus
-    icon: currency-dollar
-  - heading: Hvorfor vente
-    text: Styrk dine kompetencer på et online kursus nu
-    icon: light-bulb
-  - heading: Ingen rejsetid
-    text: Du slipper for spildtid og bestemmer selv hvad du skal have til frokost
-    icon: truck
-  - heading: Designed in a browser
-    text: Designing in a browser allows rapid development and saves cost.
-    icon: template
-  button:
-    text: Om
-    url: /om/
-
 - block: content
   heading: Webinar
   subheading: Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
