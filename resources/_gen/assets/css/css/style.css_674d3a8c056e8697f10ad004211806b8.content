@@ -1939,6 +1939,10 @@ select {
   height: auto;
 }
 
+.h-24 {
+  height: 6rem;
+}
+
 .max-h-screen {
   max-height: 100vh;
 }
@@ -2001,6 +2005,10 @@ select {
 
 .w-16 {
   width: 4rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .max-w-md {
@@ -2501,6 +2509,21 @@ select {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(109 40 217 / 0));
 }
 
+.from-black\/30 {
+  --tw-gradient-from: rgb(0 0 0 / 0.3);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
+.from-black\/75 {
+  --tw-gradient-from: rgb(0 0 0 / 0.75);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
+.from-black {
+  --tw-gradient-from: #000;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
 .via-purple-500 {
   --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
 }
@@ -2515,6 +2538,10 @@ select {
 
 .to-purple-500 {
   --tw-gradient-to: #a855f7;
+}
+
+.to-transparent {
+  --tw-gradient-to: transparent;
 }
 
 .bg-cover {
@@ -3646,6 +3673,18 @@ h2 em {
     justify-content: flex-start;
   }
 
+  .lg\:justify-center {
+    justify-content: center;
+  }
+
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
+  .lg\:justify-evenly {
+    justify-content: space-evenly;
+  }
+
   .lg\:gap-10 {
     gap: 2.5rem;
   }
@@ -3709,6 +3748,11 @@ h2 em {
   .lg\:py-28 {
     padding-top: 7rem;
     padding-bottom: 7rem;
+  }
+
+  .lg\:py-32 {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
   }
 
   .lg\:pt-12 {
