@@ -41,8 +41,9 @@ blocks:
 
 - block: video
   heading: Webinar
-  subheading: Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
   text: |-
+    Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
+    
     Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
     
     Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden
@@ -50,22 +51,6 @@ blocks:
   video: 
     text: Se video
     id: LVDUbfdfBPk
-  button:
-    text: Kom igang
-    url: https://www.officegeek.dk/kurser
-
-- block: content
-  heading: Webinar
-  subheading: Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
-  text: |-
-    Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
-    
-    Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden
-
-  video:
-    file: images/video.mp4
-    image: images/video.jpg
-
   button:
     text: Webinar
     url: /webinar/
