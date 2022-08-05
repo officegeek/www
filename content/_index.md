@@ -24,16 +24,16 @@ blocks:
   cards:
   - heading: Good Economy
     text:  The price of an online course is lower than a physical course
-    icon: bell
+    icon: economy
   - heading: Why Wait
     text:  Strengthen your skills on an online course now
-    icon: bell
+    icon: lightbulb
   - heading: No Travel Time
     text:  You avoid wasted time and decide for yourself what to have for lunch
-    icon: bell
+    icon: delivery-truck
   - heading: Designed in a Browser
     text:  Designing in a browser allows rapid development and saves cost.
-    icon: bell
+    icon: popup
 
 - block: courses
   heading: Udvalgte kurser

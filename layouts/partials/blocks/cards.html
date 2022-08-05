@@ -21,7 +21,7 @@
     <div class="grid grid-cols-1 gap-12 sm:grid-cols-2 lg:gap-12 lg:grid-cols-4 text-center mt-14">
       {{ range .cards }}
         <div>
-          <div class="inline-flex items-center justify-center text-green-500 rounded-lg bg-[#D3F2DE] p-3 svg-8">
+          <div class="inline-flex items-center justify-center text-green-500 rounded-lg bg-[#D3F2DE] w-20 h-20">
             {{ $icon := printf "%s%s%s" "icons/" .icon ".svg" }}
             {{ if templates.Exists (printf "%s%s" "partials/" $icon ) }}
               {{ partial $icon }}
