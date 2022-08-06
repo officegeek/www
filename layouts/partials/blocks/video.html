@@ -17,7 +17,6 @@
           {{ with .text }}
             <div class="mt-5 sm:mt-8 text-white text-xl leading-relaxed space-y-3">{{ . | markdownify }}</div>
           {{ end }} 
-          
           <div class="mt-8 sm:mt-10">
             {{ with .button }}
               <a href="{{ .url | relURL }}"
