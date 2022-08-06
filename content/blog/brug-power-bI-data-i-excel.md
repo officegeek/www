@@ -1,6 +1,6 @@
 ---
 title: Brug Power BI data i Excel
-image: /images/blog/bi-logo.png
+image: /images/blog/microsoftpowerbi.jpg
 summary: Microsoft Power Bi er et super program til at at analysere, vise og dele dine rapport - Men hvad nu hvis du gerne vil analysere yderlige på data i Excel?
 date: 2022-06-17
 categories:
