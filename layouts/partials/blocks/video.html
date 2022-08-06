@@ -1,5 +1,5 @@
-<section x-data="modalVideo" class="px-4 sm:px-6 lg:px-8 py-16 lg:py-32 overflow-hidden relative bg-cover bg-no-repeat" style="background-image: url({{ .image | absURL }});">
-  <div class="absolute inset-0 bg-gradient-to-r from-black to-transparent"></div>
+<section x-data="modalVideo" class="px-4 sm:px-6 lg:px-8 py-16 lg:py-32 overflow-hidden relative bg-contain bg-right bg-no-repeat" style="background-image: url({{ .image | absURL }});">
+  <div class="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/25 lg:to-transparent"></div>
   
   <div class="max-w-md sm:max-w-2xl lg:max-w-7xl mx-auto relative">
     <div class="grid lg:grid-cols-2 gap-12">
