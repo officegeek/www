@@ -9,6 +9,17 @@ canonifyURLs: true
 
 paginate: 12
 
+outputFormats:
+  search:
+    baseName: search
+    isPlainText: true
+    mediaType: application/json
+outputs:
+  home:
+    - HTML
+    - RSS
+    - search
+
 taxonomies:
   categories: 'categories'
   kategorier: 'kategorier'
