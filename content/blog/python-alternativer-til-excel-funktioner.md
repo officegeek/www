@@ -136,5 +136,5 @@ Der er forskel på ugedags nummer uge nummer i Danmark og USA. Derfor skal du br
 ## Filer
 Du kan hente og selv prøve de forskellige funktioner med disse to filer:
 
-- [excel-python-funktioner.xlsx](/static/files/blog/excel-python-funktioner.xlsx)
-- [excel-python-funktioner.py](/static/files/blog/excel-python-funktioner.py)
+- [excel-python-funktioner.xlsx](/content/blog/files/excel-python-funktioner.xlsx)
+- [excel-python-funktioner.py](/content/blog/files/excel-python-funktioner.py)
