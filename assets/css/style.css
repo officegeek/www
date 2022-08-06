@@ -2509,6 +2509,10 @@ select {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
 
+.bg-gradient-to-l {
+  background-image: linear-gradient(to left, var(--tw-gradient-stops));
+}
+
 .from-indigo-500 {
   --tw-gradient-from: #6366f1;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(99 102 241 / 0));
@@ -2533,6 +2537,18 @@ select {
   --tw-gradient-stops: var(--tw-gradient-from), #a855f7, var(--tw-gradient-to, rgb(168 85 247 / 0));
 }
 
+.via-black {
+  --tw-gradient-stops: var(--tw-gradient-from), #000, var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
+.via-black\/50 {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.5), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
+.via-black\/75 {
+  --tw-gradient-stops: var(--tw-gradient-from), rgb(0 0 0 / 0.75), var(--tw-gradient-to, rgb(0 0 0 / 0));
+}
+
 .to-pink-500 {
   --tw-gradient-to: #ec4899;
 }
@@ -2549,8 +2565,24 @@ select {
   --tw-gradient-to: transparent;
 }
 
+.to-black\/25 {
+  --tw-gradient-to: rgb(0 0 0 / 0.25);
+}
+
 .bg-cover {
   background-size: cover;
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-right {
+  background-position: right;
+}
+
+.bg-left {
+  background-position: left;
 }
 
 .bg-no-repeat {
@@ -3686,6 +3718,10 @@ h2 em {
     --tw-space-x-reverse: 0;
     margin-right: calc(2.5rem * var(--tw-space-x-reverse));
     margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:to-transparent {
+    --tw-gradient-to: transparent;
   }
 
   .lg\:p-10 {

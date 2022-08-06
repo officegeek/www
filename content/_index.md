@@ -43,7 +43,7 @@ blocks:
   heading: Webinar
   text: |-
     Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
-    
+
     Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
     
     Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden
@@ -61,9 +61,8 @@ blocks:
 
 - block: cta
   heading: En til En
-  subheading: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver 
-  text: |
-
+  text: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver 
+  image: /images/bg-cta.jpg
   button:
     text: En til En
     url: /en-til-en/
