@@ -112,9 +112,9 @@
           <div x-data="{ search: false }" @click.outside="search = false" class="hidden absolute inset-y-0 right-0 lg:flex items-center sm:static sm:inset-auto z-10">
             <div class="relative">
               <div class="relative">
-                <button @click="search = ! search" type="button" class="bg-white rounded-full flex text-sm focus:outline-none" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
+                <button @click="search = ! search" type="button" class="bg-white rounded-full flex text-sm focus:outline-none text-gray-900 hover:text-green-500" id="user-menu-button" aria-expanded="false" aria-haspopup="true">
                   <span class="sr-only">Open search</span>
-                  <svg class="h-6 w-6 text-gray-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                  <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                     <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                   </svg>
                 </button>
@@ -129,7 +129,7 @@
                           <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
                         </svg>
                       </div>
-                      <input id="search-input" name="search" class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-violet-500 focus:border-vring-violet-500 sm:text-sm" placeholder="Search" type="search">
+                      <input id="search-input" name="search" class="block w-full pl-10 pr-3 py-3 border border-gray-400 rounded-md leading-5 bg-white placeholder-gray-500 focus:outline-none focus:placeholder-gray-400 focus:ring-1 focus:ring-green-500 focus:border-green-500 sm:text-sm" placeholder="Search" type="search">
                     </div>
                   </div>
                   <ul id="results-container" class="absolute top-12 left-0 right-0 bg-white rounded-md shadow-lg capitalize overflow-y-scroll max-h-[30rem]"></ul>
@@ -331,7 +331,7 @@
     resultsContainer: document.getElementById('results-container'),
     json: '{{ "search.json" | relURL }}',
     searchResultTemplate: '<li><a class="flex px-4 py-3" href="{url}">{title}</a></li>',
-    noResultsText: '<li class="flex px-4 py-3">No results found</li>',
+    noResultsText: '<li class="flex px-4 py-3">Ingen resultater fundet</li>',
   });
   
   searchResults();
