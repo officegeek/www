@@ -7,7 +7,7 @@ image:
 
 blocks:
 - block: hero
-  superheading: Welcome to officegeek
+  superheading: Velkommen til officegeek
   heading: Styrk dine it kundskaber med "just-in-time" learning
   subheading: Jeg tilbyder online kurser og webinarer med et klart fokus, eller hvad med online "En til En" undervisning
   image: /images/hero.jpg
@@ -19,20 +19,20 @@ blocks:
     url: https://www.officegeek.dk/kurser
 
 - block: cards
-  heading: Why *OfficeGeek?*
-  subheading: I have been teaching a lot of happy students since 1995.
+  heading: Hvorfor *OfficeGeek?*
+  subheading: Jeg har undervist i IT siden 1995.
   cards:
-  - heading: Good Economy
-    text:  The price of an online course is lower than a physical course
+  - heading: God økonomi
+    text:  Prisen på et online kursus er typisk lavere
     icon: economy
-  - heading: Why Wait
-    text:  Strengthen your skills on an online course now
+  - heading: Hvorfor vente
+    text:  Med en online kursus kan du starte nu
     icon: lightbulb
-  - heading: No Travel Time
-    text:  You avoid wasted time and decide for yourself what to have for lunch
+  - heading: Ingen rejsetid
+    text:  Du undgår at bruge din tid på transport
     icon: delivery-truck
-  - heading: Designed in a Browser
-    text:  Designing in a browser allows rapid development and saves cost.
+  - heading: Intet tidsspilde
+    text:  På et traditionelt kursus vil der forekomme spildtid
     icon: popup
 
 - block: courses

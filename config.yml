@@ -35,8 +35,8 @@ params:
   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
   logo: "/images/logo.svg"
   logo_footer: "/images/logo.svg"
-  footer_text: "Since 1995, I have taught companies and for course providers. Over the years, it has become a lot of satisfied students."
-  contact_text: "If you have any questions or anything else please contact me"
+  footer_text: "Siden 1995 har jeg undervist virksomheder og for kursusudbydere. Gennem årene er det blevet til rigtig mange tilfredse kursister"
+  contact_text: "Kontakt mig hvis du har nogle spørgsmål."
   copyright: "Copyright © 2022"
   author: "OfficeGeek"
   github: "#"
@@ -70,7 +70,7 @@ params:
     url: "/kontakt/"
 
   footer_1:
-    heading: Tjenester
+    heading: Ydelser
     links: 
     - name: Kurser
       url: "/kurser/"
