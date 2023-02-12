@@ -61,7 +61,7 @@ blocks:
 
 - block: cta
   heading: En til En
-  text: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver 
+  text: Målrettet undervisning på det helt rigtige tidspunkt vil gøre dig bedre og hurtigere til dine opgaver.
   image: /images/bg-cta.jpg
   button:
     text: En til En
