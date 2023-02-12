@@ -46,7 +46,7 @@ blocks:
 
     Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
     
-    Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden
+    Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden.
   image: /images/bg-video.jpg
   video: 
     text: Se video
