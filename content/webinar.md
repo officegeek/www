@@ -5,9 +5,11 @@ description:
 layout: page
 ---
 
-Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
+Mine webinarer er designet til at give dig praktiske værktøjer og strategier, der kan forbedre din produktivitet og effektivitet i arbejdet med IT.
+
+Du vil lære at optimere arbejdsprocesser og løse udfordringer på en mere effektiv måde.
 
 Et webinar har fokus på et bestemt emne, strækker sig kun over et begrænset tidsrum, **ingen spildtid**.
 
-Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden.
+Du kan deltage, når det passer dig bedst, og undgå unødvendig rejsetid og -omkostninger.
 

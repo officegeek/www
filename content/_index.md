@@ -44,9 +44,8 @@ blocks:
   text: |-
     Det er ikke kun på prisen at webinarer slår traditionelle kurser! 
 
-    Du får den sammen høje kvalitet på et webinar som på et traditionelt kursus, endda med den fordel at du kan se de igen og igen.
-    
-    Det bedste af det hele er du ikke behøver at flytte dig for at få ny viden.
+    Et webinar kan tilgås online fra hvor som helst, jeg tilbyder fleksible tidspunkter, så du kan deltage, når det passer dig bedst, og undgå unødvendig rejsetid og -omkostninger.
+
   image: /images/bg-video.jpg
   video: 
     text: Se video
