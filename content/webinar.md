@@ -13,3 +13,7 @@ Et webinar har fokus på et bestemt emne, strækker sig kun over et begrænset t
 
 Du kan deltage, når det passer dig bedst, og undgå unødvendig rejsetid og -omkostninger.
 
+## Webinar
+
+- [https://event.webinarjam.com/register/2/l32rofm](https://event.webinarjam.com/register/2/l32rofm)
+
