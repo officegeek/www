@@ -18,4 +18,9 @@ Du kan deltage, når det passer dig bedst, og undgå unødvendig rejsetid og -om
 - [https://event.webinarjam.com/register/2/l32rofm](https://event.webinarjam.com/register/2/l32rofm)
 
 # Webinar Test
-<script src="https://event.webinarjam.com/register/l32rofm/embed-bar?buttonText=Register&buttonBgColor=%2329b6f6&buttonBgOpacity=0.95&barBgColor=%23ffffff&barBgOpacity=1&type=bubble&formTemplate=2&formColor=3"></script>
+
+<div style="text-align:center;">
+<button type="button" class="wj-embed-button" data-webinarHash="l32rofm" style="border: 2px solid rgba(0, 0, 0, 0.5); background: rgba(41, 182, 246, 0.95); color: rgb(255, 255, 255); font-size: 24px; padding: 18px 80px; box-shadow: none; border-radius: 4px; white-space: normal; font-weight: 700; line-height: 1.3; cursor: pointer; font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; word-break: break-word; margin: auto;">Register</button>
+<script src="https://event.webinarjam.com/register/l32rofm/embed-button?formTemplate=2&formColor=1"></script>
+</div>
+
