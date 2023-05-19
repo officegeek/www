@@ -1,22 +1,22 @@
 ---
 title: FILTER funktionen i Excel
-image: /images/blog/microsoftpowerbi.jpg
+image: /images/blog/filtrer.jpb
 summary: Introduktion til hvordan du kan bruge FILTER funktionen i Excel
 date: 2023-04-14
 categories:
 - excel
 ---
 
-# Brug af FILTER funktionen i Excel
+# Brug af FILTRER funktionen i Excel
 *Du har en liste med personer og nogle point de har fået* - **Din opgave er at finde den eller dem med det højeste antal point**
 
 Dette er din liste som en Excel tabel med navnet *PointTabel*
 
 ![](./image/point.jpg)
 
-Det er nemt nok hvis der kun er en der har det højeste antal point, men her er der to!
+Det er nemt nok hvis der kun er **én** der har det højeste antal point, men her er der to!
 
-Til dette kan du bruge FILTRER funktionen, synktaksen er:
+Til dette kan du bruge **FILTRER** funktionen, synktaksen er:
 
 **=FILTRER(matrix, inkluder, [hvis_tom])**
 
