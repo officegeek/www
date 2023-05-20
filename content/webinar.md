@@ -15,4 +15,4 @@ De er optaget, hvilket betyder at du kan se det med det sammen - Lige når du ha
 
 Så er dette webinar om **Excel opslagsfunktioner** noget for dig!
 
-[Læs mere her](./webinar/excel-opslagsfunktioner.md)
+[Læs mere her](/webinar/excel-opslagsfunktioner.md)
