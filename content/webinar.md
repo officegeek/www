@@ -26,3 +26,5 @@ Jeg dækker også mere avancerede teknikker og bedste praksis for at optimere di
 Klik på **Register** knappen og få omgående adgang til mit vores webinar om Excel opslagsfunktioner og tag din Excel-ekspertise til det næste niveau!
 
 Jeg glæder mig til at dele min viden og give dig praktiske færdigheder, der vil gavne dig i dit daglige arbejde med Excel.
+
+Du kan hente min Excel fil her: [excel-python-funktioner.xlsx](./files/webinar/Lookup_Funktioner.xlsx)
