@@ -1,10 +1,8 @@
 ---
 title: Excel opslagsfunktioner
-image: /images/blog/filrer.jpg
-summary: Introduktion til hvordan du kan bruge opslagsfunktioner i Excel
-date: 2023-05-20
-categories:
-- excel
+subheading: Introduktion til hvordan du kan bruge opslagsfunktioner i Excel
+description:
+layout: page
 ---
 
 ## Vil du gerne forbedre din dataanalyse og arbejde mere effektivt med Excel?
