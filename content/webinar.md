@@ -25,7 +25,10 @@ Jeg dækker også mere avancerede teknikker og bedste praksis for at optimere di
 
 Klik på **Register** knappen og få omgående adgang til mit vores webinar om Excel opslagsfunktioner og tag din Excel-ekspertise til det næste niveau!
 
-
+<div style="text-align:center;">
+<button type="button" class="wj-embed-button" data-webinarHash="7y3nmbk" style="border: 2px solid rgba(0, 0, 0, 0.5); background: rgba(41, 182, 246, 0.95); color: rgb(255, 255, 255); font-size: 24px; padding: 18px 80px; box-shadow: none; border-radius: 4px; white-space: normal; font-weight: 700; line-height: 1.3; cursor: pointer; font-family: Roboto, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, sans-serif; word-break: break-word; margin: auto;">Register</button>
+<script src="https://event.webinarjam.com/register/7y3nmbk/embed-button?formTemplate=2&formColor=1"></script>
+</div>
 
 Jeg glæder mig til at dele min viden og give dig praktiske færdigheder, der vil gavne dig i dit daglige arbejde med Excel.
 
