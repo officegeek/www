@@ -80,6 +80,6 @@ End Sub
 
 Jeg har **intet ændret** i koden og den virker som den skal!
 
-Prøv selv at indsætte mit forslag eller dit eget i [ChartGpt](https://chat.openai.com) og sæt resultat ind i et Excel VBA  Module - Kør makroen!.
+Prøv selv at indsætte mit forslag eller dit eget i [ChartGpt](https://chat.openai.com) og sæt resultat ind i et Excel VBA Module - Kør makroen!.
 
 Du kan hente en Excel fil hvor koden er indsat: [chartgpt.xlsm](/files/blog/chartgpt.xlsm)
