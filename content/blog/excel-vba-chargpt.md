@@ -8,12 +8,10 @@ categories:
 - vba
 ---
 
-https://chat.openai.com
-
 # ChatGPT og Excel Makro
 Jeg har i mange år undervist i Excel VBA og et af de spørgsmål jeg har fået flest gange er noget i denne retning:
 
-*Hvordan kan jeg selv finde ud af hvad de forskellige kommandoer/Funktioner hedder?*
+### Hvordan kan jeg selv finde ud af hvad de forskellige kommandoer/Funktioner hedder?
 
 Jeg har indtil nu ikke haft et helt rigtigt svar, det er blevet til noget i retning af: *Det finder du ud af med tiden, prøv dig frem osv.*
 
@@ -27,7 +25,7 @@ Jeg prøvede med denne beskrivelse:
 
 *Loop igennem alle ark i Excel filen og tilføj et hyperlink til hvert ark i kolonne A i Indholds arket. Autotilpas bredden på kolonne A.*
 
-![Indholdsfortegnelse](/images/blog/indholdsfortegnelse.jpg)
+![chatgpt](/images/blog/excel-vba-chatgpt.jpg)
 
 ## Uredigeret makro kode fra ChatGPT
 ```vba
@@ -78,6 +76,10 @@ Sub OpretIndholdsArk()
 End Sub
 ```
 
+![Indholdsfortegnelse](/images/blog/indholdsfortegnelse.jpg)
+
 Jeg har **intet ændret** i koden og den virker som den skal!
 
 Prøv selv at indsætte mit forslag eller dit eget i [ChartGpt](https://chat.openai.com) og sæt resultat ind i et Excel VBA  Module - Kør makroen!.
+
+Du kan hente en Excel fil hvor koden er indsat: [chartgpt.xlsm](/files/blog/chartgpt.xlsm)
