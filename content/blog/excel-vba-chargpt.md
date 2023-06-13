@@ -17,7 +17,7 @@ Jeg har indtil nu ikke haft et helt rigtigt svar, det er blevet til noget i retn
 
 Nu har jeg et bedre forslag, beskriv i almendelig klart tekst hvad det er du gerne vil have udført. Sæt det ind i [CharGPT](https://chat.openai.com) og du får enten noget kode der virker med det sammen eller i det mindste et rigtigt godt udgangspunkt.
 
-En makro som jeg brugere tit indsætter et nyt ark med en indholdsfortegnelse over de forskellige ark og link til dem. Super anvendeligt når jeg udlevere eksempel filer på mine kurser.
+En makro som jeg brugere tit indsætter et nyt ark med en indholdsfortegnelse over de forskellige ark og link til dem. Super anvendeligt når jeg udleverer eksempel filer på mine kurser.
 
 Jeg prøvede med denne beskrivelse:
 
