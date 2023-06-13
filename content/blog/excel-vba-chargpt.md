@@ -2,7 +2,7 @@
 title: Brug ChatGPT til VBA kode
 image: /images/blog/indholdsfortegnelse.jpg
 summary: Hvordan du bruger ChatGPT til at udvikle Excel VBA kode
-date: 2023-04-14
+date: 2023-06-12
 categories:
 - excel
 - vba

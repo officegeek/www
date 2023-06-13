@@ -12,7 +12,7 @@ Når du indsætter en **Funktion** får du vist hvilke parameter den indeholder,
 
 Hvis du gerne vil have vist dem permanment, det er f.eks. en fordel ved undervisning eller dokumentation, skal du gøre følgende:
 
-- Start med at skrive din funktion - =XOPSLAG(
+- Start med at skrive din funktion: =XOPSLAG(
 - Tryk derefter:
     - Ctrl + Shift + A (Windows)
     - Command + Shift + A (Mac)
