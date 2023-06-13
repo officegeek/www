@@ -1,6 +1,6 @@
 ---
 title: Vis Funktions Parameter
-image: /images/blog/indholdsfortegnelse.jpg
+image: /images/blog/Funktion.jpg
 summary: Behold listen over Funktions parameter
 date: 2023-06-13
 categories:
