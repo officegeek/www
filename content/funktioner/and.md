@@ -1,7 +1,7 @@
 ---
 title: AND
 description: Test multiple conditions with AND
-video: XRmVnvcl62I
+vimeo: 335893726
 downloads: 
 - text: File xyz
   url: files/blog/chartgpt.xlsm
