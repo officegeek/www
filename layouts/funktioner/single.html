@@ -39,7 +39,7 @@
           <div class="uppercase text-sm text-neutral-500 font-medium mb-2">Reference</div>
           <div class="flex flex-col gap-1">
             {{ range .Params.reference }}
-              <a class="hover:text-green-500 text-base" href="{{ $.Permalink }}#{{ lower . }}">{{ . }}</a>
+              <a class="hover:text-green-500 text-base" href="{{ $.Site.BaseURL }}funktioner/{{ lower . }}">{{ . }}</a>
             {{ end }}
           </div>
         {{ end }}
