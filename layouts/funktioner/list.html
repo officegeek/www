@@ -7,7 +7,7 @@
       <div class="flex flex-col md:flex-row justify-between gap-4 mb-6">
         {{- with site.Taxonomies.funktioner_kategorier -}}
           <div id="filter-buttons" class="flex gap-2 flex-wrap">
-            <button id="reset" onclick="showAll()" class="active-category rounded bg-muted text-sm px-4 py-1.5">Show all</button>
+            <button id="reset" onclick="showAll()" class="active-category rounded bg-muted text-sm px-4 py-1.5">Vis alt</button>
             {{ range $termName, $weightedPages := . }}
               {{ $termPage := site.GetPage (printf "/funktioner_kategorier/%s" $termName) }}
               {{ with $termPage }}
