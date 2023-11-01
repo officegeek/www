@@ -62,6 +62,11 @@
   }
 }
 
+.active-category {
+  @apply text-white;
+  @apply bg-green-500;
+}
+
 /* @media (min-width: 1024px) {
   .prose .cp_embed_wrapper {
     margin-left: -100px;

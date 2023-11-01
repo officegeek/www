@@ -1,0 +1,212 @@
+{{define "main"}}
+<div class="bg-white px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-7xl py-8">
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold lg:leading-tight text-gray-900 capitalize mb-5">{{ .Title }}</h1>
+
+    <div class="xl:sticky top-0 bg-white py-4 border-b">
+      <div class="flex flex-col md:flex-row justify-between gap-4 mb-6">
+        {{- with site.Taxonomies.funktioner_kategorier -}}
+          <div id="filter-buttons" class="flex gap-2 flex-wrap">
+            <button id="reset" onclick="showAll()" class="active-category rounded bg-muted text-sm px-4 py-1.5">Show all</button>
+            {{ range $termName, $weightedPages := . }}
+              {{ $termPage := site.GetPage (printf "/funktioner_kategorier/%s" $termName) }}
+              {{ with $termPage }}
+              <button class="rounded bg-muted text-sm px-4 py-1.5" onclick="filterCategory('{{ lower (replace .LinkTitle " " "-") }}', this)">{{ .LinkTitle }}</button>
+              {{ end }}
+            {{ end }}
+          </div>
+        {{- end -}}
+      
+        <div>
+          <input class="w-full sm:w-auto sm:min-w-[25rem] rounded placeholder-stone-600 focus:border-neutral-600 focus:outline-none focus:ring-0" type="text" id="search-box" onkeyup="searchFunction()" placeholder="Søg efter funktioner">    
+        </div>
+      </div>
+
+      <div class="flex-col md:flex-row gap-3 sm:gap-8 hidden md:flex uppercase text-xs text-neutral-500 font-medium">
+        <div class="min-w-[10rem]">Funktioner</div>
+        <div class="min-w-[20%]">Beskrivelse</div>
+        <div class="flex-1">Eksempler</div>
+        <div>Video</div>
+        <div class="min-w-[10%]">Downloads</div>
+        <div class="min-w-[10%]">Reference</div>
+      </div>
+    </div>
+
+    <div x-data="{ showModal: false, videoId: '' }">
+      {{ with site.Taxonomies.funktioner_kategorier }}
+        <div class="functions gap-6 grid mt-4">
+          {{- range $termName, $weightedPages := . -}}
+            {{ $termPage := site.GetPage (printf "/funktioner_kategorier/%s" $termName) }}
+            {{- with $termPage -}}
+              <h2 class="category {{ lower (replace .LinkTitle " " "-") }} font-semibold leading-tight md:leading-tight text-green-500 text-3xl pt-5">{{ .LinkTitle }}</h2>
+              {{ $category := .LinkTitle }}
+              {{ range $weightedPages }}
+                {{ if eq .Section "funktioner" }}
+                  <div id="{{ lower (replace .LinkTitle " " "-") }}" class="function func-{{ lower (replace $category " " "-") }} {{ lower (replace $category " " "-") }} {{ lower (replace .LinkTitle " " "-") }} flex border-b pb-6 scroll-mt-4 xl:scroll-mt-40">
+
+                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-8">
+                      <div class="min-w-[10rem]">
+                        <a class="hover:text-green-500" href="{{ .Permalink }}"><h3 class="font-semibold text-lg tracking-tight">{{ .LinkTitle }}</h3></a>
+                      </div>
+                      {{ with .Params.description }}
+                        <div class="min-w-[20%]">{{ . }}</div>
+                      {{ end }}
+                      {{ if .Summary }}
+                        <div class="flex-1">{{ .Summary }} <a class="text-green-500 hover:text-green-600" href="{{ .Permalink }}">Mere &#8594;</a></div>
+                      {{ end }}
+                      {{ with .Params.video }}
+                      <a class="hover:text-green-500 text-sm " href="#" title="Video" @click.prevent="videoId = '{{ . }}'; showModal = true">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 flex-none">
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                        </svg>                
+                      </a>
+                      {{ end }}
+                      <div class="min-w-[10%] flex flex-col gap-1">
+                        {{ range .Params.downloads }}
+                          <a class="hover:text-green-500 flex items-center space-x-1 text-sm" target="_blank" href="{{ .url | absURL }}">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-none">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                            <span>{{ .text }}</span>
+                          </a>
+                        {{ end }}
+                      </div>
+                      <div class="min-w-[10%] flex flex-col gap-1">
+                        {{ range .Params.reference }}
+                          <a class="hover:text-green-500 text-sm" href="{{ $.Permalink }}#{{ lower . }}">{{ . }}</a>
+                        {{ end }}
+                      </div>
+                    </div>
+                  </div>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+
+      <!-- Modal Popup -->
+      <div x-show="showModal" x-transition.opacity="" class="fixed inset-0 bg-black bg-opacity-50" aria-hidden="true" style="display: none;"></div>
+      <div x-show="showModal" class="fixed inset-0 flex items-center justify-center z-50" style="display: none;">
+          <div class="bg-white p-4 rounded-lg shadow-xl w-3/4" @click.outside="showModal = false; videoId = '';">
+              <div class="aspect-w-16 aspect-h-9">
+                <iframe :src="'https://www.youtube.com/embed/' + videoId + '?autoplay=1'" frameborder="0"></iframe>
+              </div>
+          </div>
+      </div>
+
+      <script>
+        // Listen for changes to showModal and remove iframe when modal is closed.
+        function handleModalChange(event) {
+            if (event.detail.value === false) {
+                const iframe = document.querySelector('iframe');
+                if (iframe) {
+                    iframe.src = '';
+                }
+            }
+        }
+
+        document.addEventListener('alpine:component:init', (event) => {
+            event.target.$watch('showModal', handleModalChange);
+        });
+      </script>  
+    </div>
+    
+    <script>
+      function filterCategory(category, clickedButton) {
+        // Remove "active-category" class from all buttons
+        document.getElementById('reset').classList.remove('active-category');
+
+        document.querySelectorAll('#filter-buttons button').forEach(button => {
+          button.classList.remove('active-category');
+        });
+
+        // Add "active-category" class to the clicked button
+        clickedButton.classList.add('active-category');
+
+        // Show the selected category and its functions, hide others
+        document.querySelectorAll('.functions > *').forEach(cat => {
+          if (cat.classList.contains(category)) {
+            cat.classList.remove('hidden');
+            document.querySelectorAll(`.${category}`).forEach(el => el.classList.remove('hidden'));
+          } else {
+            cat.classList.add('hidden');
+            document.querySelectorAll(`.${cat.classList[1]}`).forEach(el => el.classList.add('hidden'));
+          }
+        });
+      }
+    
+      function showAll() {
+        // Remove active class from all buttons
+        const buttons = document.querySelectorAll('#filter-buttons button');
+        const categories = document.querySelectorAll('h2.category');
+        const funcs = document.querySelectorAll('.function');
+
+        // Remove "active-category" class from all buttons
+        buttons.forEach(button => {
+          button.classList.remove('active-category');
+        });
+        document.getElementById('reset').classList.add('active-category');
+
+        // Show all categories
+        categories.forEach(cat => {
+          cat.classList.remove('hidden');
+        });
+        console.log(funcs.length);
+
+        // Show all functions by targeting divs that have a category class
+        funcs.forEach(func => {
+          func.classList.remove('hidden');
+        });
+
+        // Clear the search field
+        document.getElementById('search-box').value = '';
+      }
+    
+      // Function to search and filter functions
+      function searchFunction() {
+        let searchQuery = document.getElementById('search-box').value.toLowerCase();
+        let functions = document.querySelectorAll('.function');
+        let categories = document.querySelectorAll('h2.category');
+
+        document.getElementById('reset').classList.remove('active-category');
+        let buttons = document.querySelectorAll('#filter-buttons button');
+        buttons.forEach(button => button.classList.remove('active-category'));
+        categories.forEach(cat => cat.classList.remove('hidden'));
+    
+        functions.forEach(func => {
+          if ([...func.classList].some(className => className.toLowerCase().includes(searchQuery.toLowerCase()))) {
+            func.classList.remove('hidden');
+          } else {
+            func.classList.add('hidden');
+            // Get the class that begins with "func-"
+            let funcClass = [...func.classList].find(cls => cls.startsWith('func-'));
+            if (funcClass) {
+              // Strip "func-" from the class name to find the corresponding category
+              let strippedClass = funcClass.replace('func-', '');
+              // Get all elements with the original funcClass
+              let allFuncElements = document.querySelectorAll(`.${funcClass}`);
+              // Check if all elements with this class also have the 'hidden' class
+              let areAllHidden = [...allFuncElements].every(elem => elem.classList.contains('hidden'));
+              if (areAllHidden) {
+                // If all functions are hidden, find and hide the corresponding h2
+                document.querySelectorAll(`h2.${strippedClass}`).forEach(header => {
+                  header.classList.add('hidden');
+                });
+              }
+            }
+          }
+        });
+
+      }
+    </script>    
+  </div>
+  
+
+</div>
+
+
+
+
+{{ end }}

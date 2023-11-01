@@ -23,6 +23,7 @@ outputs:
 taxonomies:
   categories: 'categories'
   kategorier: 'kategorier'
+  funktioner_kategorier: 'funktioner_kategorier'
 permalinks:
   kategorier: "/:slug"
 

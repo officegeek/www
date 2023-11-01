@@ -1,0 +1,107 @@
+{{define "main"}}
+<div class="bg-purple-990 px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-4xl pt-10 lg:pt-16 pb-8 lg:pb-16" x-data="{ showModal: false, videoId: '' }">
+    <div class="flex flex-col md:flex-row gap-3 justify-between border-b pb-6">
+      <div>
+        <h1 class="text-3xl font-bold sm:text-4xl lg:text-5xl lg:leading-tight text-gray-900 uppercase">{{ .Title }}</h1>
+        {{ if .Params.funktioner_kategorier }}
+          <div class="gap-x-3 flex capitalize mt-2">
+            {{ range .Params.funktioner_kategorier }}<span class="px-3 py-1.5 rounded-full bg-green-100 text-green-500 text-sm leading-none inline-block">{{ . }}</span>{{ end }}
+          </div>
+        {{ end }}    
+        {{ with .Params.description }}
+          <div class="mt-4">{{ . }}</div>
+        {{ end }}
+        {{ with .Params.video }}
+          <a class="text-green-500 hover:text-green-600 text-sm mt-6 inline-block" href="#" title="Video" @click.prevent="videoId = '{{ . }}'; showModal = true">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="w-16 h-16 flex-none">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+            </svg>                
+          </a>
+        {{ end }}
+      </div>
+      <div class="lg:pr-20 lg:pt-3">
+        {{ if .Params.downloads }}
+          <div class="uppercase text-sm text-neutral-500 font-medium mb-2">Downloads</div>
+          <div class="flex flex-col gap-1 mb-6">
+            {{ range .Params.downloads }}
+              <a class="hover:text-green-500 flex items-center space-x-1 text-base" target="_blank" href="{{ .url | absURL }}">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 flex-none">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75l3 3m0 0l3-3m-3 3v-7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                <span>{{ .text }}</span>
+              </a>
+            {{ end }}
+          </div>
+        {{ end }}
+        {{ if .Params.reference }}
+          <div class="uppercase text-sm text-neutral-500 font-medium mb-2">Reference</div>
+          <div class="flex flex-col gap-1">
+            {{ range .Params.reference }}
+              <a class="hover:text-green-500 text-base" href="{{ $.Permalink }}#{{ lower . }}">{{ . }}</a>
+            {{ end }}
+          </div>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="mt-12 prose prose-lg hover:prose-a:text-green-500 max-w-none">
+      {{ .Content }}
+    </div>
+
+    <!-- Modal Popup -->
+    <div x-show="showModal" x-transition.opacity="" class="fixed inset-0 bg-black bg-opacity-50" aria-hidden="true" style="display: none;"></div>
+    <div x-show="showModal" class="fixed inset-0 flex items-center justify-center z-50" style="display: none;">
+        <div class="bg-white p-4 rounded-lg shadow-xl w-3/4" @click.outside="showModal = false; videoId = '';">
+            <div class="aspect-w-16 aspect-h-9">
+              <iframe :src="'https://www.youtube.com/embed/' + videoId + '?autoplay=1'" frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script>
+      // Listen for changes to showModal and remove iframe when modal is closed.
+      function handleModalChange(event) {
+          if (event.detail.value === false) {
+              const iframe = document.querySelector('iframe');
+              if (iframe) {
+                  iframe.src = '';
+              }
+          }
+      }
+
+      document.addEventListener('alpine:component:init', (event) => {
+          event.target.$watch('showModal', handleModalChange);
+      });
+    </script>  
+    
+  </div>
+</div>
+<div class="bg-white px-4 sm:px-6 lg:px-8">
+  <div class="mx-auto max-w-md md:max-w-xl lg:max-w-4xl py-12">
+    <h2 class="text-3xl sm:text-4xl font-semibold lg:leading-tight text-gray-900">Flere funktioner</h2>
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 mt-8 lg:mt-10">
+      {{ $posts := where site.RegularPages "Section" "funktioner" }}
+      {{ range first 2 (where $posts "Title" "!=" .Title) }}
+        <div class="bg-muted rounded-xl overflow-hidden p-6">
+          <div class="flex-1">
+            <a href="{{ .Permalink }}" title="{{ .Title }}" class="mt-2 block">
+              <h2 class="text-2xl font-semibold text-gray-900 uppercase">{{ .Title }}</h2>
+              <p class="mt-2 text-[1.063rem] text-gray-500">{{ .Params.description }}</p>
+            </a>
+          </div>
+          <div class="mt-3">
+            <a href="{{ .Permalink }}" class="text-base font-semibold text-green-500 hover:text-green-600 flex items-center"> 
+              <span>Læs funktioner </span>
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{end}}
