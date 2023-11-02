@@ -1,6 +1,6 @@
 ---
 title: ANTAL.ARBEJDSDAGE
-description: returnerer antallet af arbejdsdage mellem to datoer, eksklusiv weekender og helligdage
+description: Find antallet af arbejdsdage mellem to datoer.
 vimeo: 335893726
 downloads: 
 - text: File xyz
@@ -19,7 +19,7 @@ Funktionen ANTAL.ARBEJDSDAGE returnerer antallet af arbejdsdage mellem to datoer
 
 Her er et eksempel på brugen af ANTAL.ARBEJDSDAGE
 
-=ANTAL.ARBEJDSDAGE(STARTSDATO; SLUTDATO; [Helligdage])
+    =ANTAL.ARBEJDSDAGE(STARTSDATO; SLUTDATO; [Helligdage])
 
 - **STARTSDATO**: Den dato du vil starte tællingen fra.
 - **SLUTDATO**: Den dato du vil tælle til.
