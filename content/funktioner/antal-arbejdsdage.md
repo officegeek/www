@@ -23,4 +23,8 @@ Her er et eksempel på brugen af ANTAL.ARBEJDSDAGE
 
 - **STARTSDATO**: Den dato du vil starte tællingen fra.
 - **SLUTDATO**: Den dato du vil tælle til.
-- [**Helligdage**]: En valgfri liste over datoer, der skal betragtes som helligdage og derfor ikke tælles som arbejdsdage.
+- **[Helligdage]**: En valgfri liste over datoer, der skal betragtes som helligdage og derfor ikke tælles som arbejdsdage.
+
+## Eksempel
+
+*UK: NETWORKDAYS*
