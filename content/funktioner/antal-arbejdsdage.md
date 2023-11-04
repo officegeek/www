@@ -4,7 +4,7 @@ description: Find antallet af arbejdsdage mellem to datoer, med styring af weeke
 vimeo: 335893726
 downloads: 
 - text: File arbejdsdage.xlsx
-  url: files/blog/arbejdsdage.xlsx
+  url: files/funktioner/arbejdsdage.xlsx
 reference: 
   - ARBEJDSDAG
   - ARBEJDSDAG.INTL
@@ -27,7 +27,7 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE**
 - **[feriedage]**: En valgfri liste over datoer, der skal betragtes som fridage/helligdage og derfor ikke tælles som arbejdsdage.
 
 ## Eksempel - Påsken 2023
-![](./image/antal-arbejdsdage.jpg)
+![](/static/image/antal-arbejdsdage.jpg)
 
     =ANTAL.ARBEJDSDAGE(C3;C4;C7:C12)
 

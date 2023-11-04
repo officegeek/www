@@ -28,7 +28,7 @@ Her er syntaksen for **ARBEJDSDAG**
 **ARBEJDSDAG** er særligt nyttig hvor du skal beregne deadlines eller leveringsdatoer, der tager hensyn til arbejdsdage. 
 
 ## Eksempel - Påsken 2023
-![](./image/arbejdsdag.jpg)
+![](/static/image/arbejdsdag.jpg)
 
     =ARBEJDSDAG(C3;C4;C7:C12)
 
