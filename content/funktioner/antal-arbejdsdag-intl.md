@@ -58,7 +58,7 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE.INTL**
 ## Eksempel
 Du vil finde datoen 10 arbejdsdage fra den *1. marts 2023*, og i din organisation betragtes *fredag* og *lørdag* som weekender. Der er en helligdag den *8. marts*. 
 
-![](/static/images/funktioner/arbejdsdag-intl.jpg)
+![](/image/arbejdsdag-intl.jpg)
 
 Du kan bruge følgende formel:
 

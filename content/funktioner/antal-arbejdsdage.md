@@ -27,7 +27,8 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE**
 - **[feriedage]**: En valgfri liste over datoer, der skal betragtes som fridage/helligdage og derfor ikke tælles som arbejdsdage.
 
 ## Eksempel - Påsken 2023
-![](/static/images/funktioner/antal-arbejdsdage.jpg)
+
+![](/image/antal-arbejdsdage.jpg)
 
     =ANTAL.ARBEJDSDAGE(C3;C4;C7:C12)
 
