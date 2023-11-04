@@ -4,11 +4,11 @@ description: Find dato plus et antal arbejdsdage, med styring af weekender.
 vimeo: 335893726
 downloads: 
 - text: File arbejdsdage.xlsx
-  url: files/blog/arbejdsdage.xlsx
+  url: files/funktioner/arbejdsdage.xlsx
 reference: 
-  - ARBEJDSDAG
-  - ANTAL.ARBEJDSDAGE
-  - ANTAL.ARBEJDSDAGE.INTL
+- ARBEJDSDAG
+- ANTAL.ARBEJDSDAGE
+- ANTAL.ARBEJDSDAGE.INTL
 funktioner_kategorier:
 - Dato og klokkeslæt
 ---
@@ -58,7 +58,7 @@ Her er syntaksen for **ARBEJDSDAG.INTL**
 ## Eksempel
 Du vil finde datoen 10 arbejdsdage fra den *1. marts 2023*, og i din organisation betragtes *fredag* og *lørdag* som weekender. Der er en helligdag den *8. marts*. 
 
-![](/static/image/arbejdsdag-intl.jpg)
+![](/static/images/funktioner/arbejdsdag-intl.jpg)
 
 Du kan bruge følgende formel:
 

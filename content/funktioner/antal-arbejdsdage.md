@@ -6,9 +6,9 @@ downloads:
 - text: File arbejdsdage.xlsx
   url: files/funktioner/arbejdsdage.xlsx
 reference: 
-  - ARBEJDSDAG
-  - ARBEJDSDAG.INTL
-  - ANTAL.ARBEJDSDAGE.INTL
+- ARBEJDSDAG
+- ARBEJDSDAG.INTL
+- ANTAL.ARBEJDSDAGE.INTL
  
 funktioner_kategorier:
 - Dato og klokkeslæt
@@ -27,7 +27,7 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE**
 - **[feriedage]**: En valgfri liste over datoer, der skal betragtes som fridage/helligdage og derfor ikke tælles som arbejdsdage.
 
 ## Eksempel - Påsken 2023
-![](/static/image/antal-arbejdsdage.jpg)
+![](/static/images/funktioner/antal-arbejdsdage.jpg)
 
     =ANTAL.ARBEJDSDAGE(C3;C4;C7:C12)
 

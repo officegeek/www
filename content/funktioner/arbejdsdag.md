@@ -4,11 +4,11 @@ description: Find dato plus et antal arbejdsdage.
 vimeo: 335893726
 downloads: 
 - text: File arbejdsdage.xlsx
-  url: files/blog/arbejdsdage.xlsx
+  url: files/funktioner/arbejdsdage.xlsx
 reference: 
-  - ANTAL.ARBEJDSDAGE
-  - ANTAL.ARBEJDSDAGE.INTL
-  - ARBEJDSDAG.INTL
+- ANTAL.ARBEJDSDAGE
+- ANTAL.ARBEJDSDAGE.INTL
+- ARBEJDSDAG.INTL
 funktioner_kategorier:
 - Dato og klokkeslæt
 ---
@@ -28,7 +28,7 @@ Her er syntaksen for **ARBEJDSDAG**
 **ARBEJDSDAG** er særligt nyttig hvor du skal beregne deadlines eller leveringsdatoer, der tager hensyn til arbejdsdage. 
 
 ## Eksempel - Påsken 2023
-![](/static/image/arbejdsdag.jpg)
+![](/static/images/funktioner/arbejdsdag.jpg)
 
     =ARBEJDSDAG(C3;C4;C7:C12)
 
