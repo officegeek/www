@@ -3,7 +3,7 @@ title: ARBEJDSDAG
 description: Find dato plus et antal arbejdsdage.
 vimeo: 335893726
 downloads: 
-- text: File arbejdsdag
+- text: File arbejdsdage.xlsx
   url: files/blog/arbejdsdage.xlsx
 reference: 
   - ANTAL.ARBEJDSDAGE
