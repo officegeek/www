@@ -13,18 +13,28 @@ funktioner_kategorier:
 - Dato og klokkeslæt
 ---
 
-Funktionen ANTAL.ARBEJDSDAGE returnerer antallet af arbejdsdage mellem to datoer, eksklusiv weekender og helligdage.
+**ANTAL.ARBEJDSDAGE** returnerer antallet af arbejdsdage mellem to datoer, eksklusiv weekender og helligdage.
 
 <!--more-->
 
-Her er et eksempel på brugen af ANTAL.ARBEJDSDAGE
+Her er syntaksen for **ANTAL.ARBEJDSDAGE**
 
-    =ANTAL.ARBEJDSDAGE(STARTSDATO; SLUTDATO; [Helligdage])
+    =ANTAL.ARBEJDSDAGE(startdato; slutdato; [feriedage])
 
-- **STARTSDATO**: Den dato du vil starte tællingen fra.
-- **SLUTDATO**: Den dato du vil tælle til.
-- **[Helligdage]**: En valgfri liste over datoer, der skal betragtes som helligdage og derfor ikke tælles som arbejdsdage.
+- **startdato**: Den dato du vil starte tællingen fra.
+- **slutdato**: Den dato du vil tælle til.
+- **[feriedage]**: En valgfri liste over datoer, der skal betragtes som fridage/helligdage og derfor ikke tælles som arbejdsdage.
 
-## Eksempel
+## Eksempel - Påsken 2023
+![](./image/antal-arbejdsdage.jpg)
 
-*UK: NETWORKDAYS*
+    =ANTAL.ARBEJDSDAGE(C3;C4;C7:C12)
+
+- **startdato**: 27-03-2023 (*C3*)
+- **slutdato**: 14-04-2023 (*C4*)
+- **feriedage**: *C7:C12*
+
+**Resultat**: 9
+
+## UK
+NETWORKDAYS
