@@ -1,6 +1,6 @@
 ---
-title: ARBEJDSDAG.INTL
-description: Find dato plus et antal arbejdsdage, med styring af weekender. 
+title: ANTAL.ARBEJDSDAGE.INTL
+description: Find dato plus et antal arbejdsdage.
 vimeo: 335893726
 downloads: 
 - text: File arbejdsdag
@@ -8,18 +8,18 @@ downloads:
 reference: 
   - ARBEJDSDAG
   - ANTAL.ARBEJDSDAGE
-  - ANTAL.ARBEJDSDAGE.INTL
+  - ARBEJDSDAG.INTL
 funktioner_kategorier:
 - Dato og klokkeslæt
 ---
 
-**ARBEJDSDAG.INTL** er en international version af **ARBEJDSDAG** der returnerer en dato, der er et specifikt antal arbejdsdage før eller efter en startdato, under hensyntagen til weekender og eventuelle helligdage.
+**ANTAL.ARBEJDSDAG.INTL** er en international version af **ANTAL.ARBEJDSDAG**, den returnerer antallet af arbejdsdage mellem to datoer, eksklusiv brugerdefinerede weekender og eventuelle helligdage.
 
 <!--more-->
 
-**ARBEJDSDAG.INTL** giver dig mulighed for at definere, hvilke dage der skal betragtes som weekender. Dette er særligt nyttigt i lande eller kulturer, hvor weekenderne ikke nødvendigvis falder på *lørdag* og *søndag*.
+**ANTAL.ARBEJDSDAGE.INTL** er nyttig i situationer, hvor standardweekenden (*lørdag og søndag*) ikke gælder.
 
-Her er syntaksen for **ARBEJDSDAG.INTL**
+Her er syntaksen for **ANTAL.ARBEJDSDAGE.INTL**
 
     =ARBEJDSDAG.INTL(startdato; dage; [weekend]; [feriedage])
 
@@ -54,6 +54,8 @@ Her er syntaksen for **ARBEJDSDAG.INTL**
   - "**1**" angiver en *fridag*
   - "**0**" angiver en *arbejdsdag*.
 - **0000011** resulterer i en weekend, der er *lørdag* og *søndag*.
+
+
 
 ## Eksempel
 Du vil finde datoen 10 arbejdsdage fra den *1. marts 2023*, og i din organisation betragtes *fredag* og *lørdag* som weekender. Der er en helligdag den *8. marts*. 

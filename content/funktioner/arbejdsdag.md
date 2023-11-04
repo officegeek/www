@@ -4,7 +4,7 @@ description: Find dato plus et antal arbejdsdage.
 vimeo: 335893726
 downloads: 
 - text: File arbejdsdag
-  url: files/blog/chartgpt.xlsm
+  url: files/blog/arbejdsdage.xlsx
 reference: 
   - ANTAL.ARBEJDSDAGE
   - ANTAL.ARBEJDSDAGE.INTL
@@ -13,7 +13,7 @@ funktioner_kategorier:
 - Dato og klokkeslæt
 ---
 
-**ARBEJDSDAG** i Excel returnerer en dato, der er et specifikt antal arbejdsdage før eller efter en startdato, under hensyntagen til weekender og eventuelle helligdage.
+**ARBEJDSDAG** returnerer en dato, der er et specifikt antal arbejdsdage før eller efter en startdato, under hensyntagen til weekender og eventuelle helligdage.
 
 <!--more-->
 

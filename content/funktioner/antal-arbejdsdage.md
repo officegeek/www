@@ -1,19 +1,20 @@
 ---
 title: ANTAL.ARBEJDSDAGE
-description: Find antallet af arbejdsdage mellem to datoer.
+description: Find antallet af arbejdsdage mellem to datoer, med styring af weekender.
 vimeo: 335893726
 downloads: 
 - text: File xyz
-  url: files/blog/chartgpt.xlsm
+  url: files/blog/arbejdsdage.xlsx
 reference: 
   - ARBEJDSDAG
-  - ANTAL.ARBEJDSDAGE.INTL
   - ARBEJDSDAG.INTL
+  - ANTAL.ARBEJDSDAGE.INTL
+ 
 funktioner_kategorier:
 - Dato og klokkeslæt
 ---
 
-**ANTAL.ARBEJDSDAGE** returnerer antallet af arbejdsdage mellem to datoer, eksklusiv weekender og helligdage.
+**ANTAL.ARBEJDSDAGE** returnerer antallet af arbejdsdage mellem to datoer, eksklusiv weekender og eventuelle helligdage.
 
 <!--more-->
 
