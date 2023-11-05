@@ -1,5 +1,3 @@
 ---
 title: Funktioner
 ---
-
-Tekst
