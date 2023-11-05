@@ -47,17 +47,17 @@
                   <div id="{{ anchorize (replace .LinkTitle "." "-") }}" class="function func-{{ anchorize (replace $category "." "-") }} {{ anchorize (replace $category "." "-") }} {{ anchorize (replace .LinkTitle "." "-") }} flex border-b pb-6 scroll-mt-4 xl:scroll-mt-40">
 
                     <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 w-full">
-                      <div class="w-[23%]">
+                      <div class="lg:w-[23%]">
                         <a class="hover:text-green-500" href="{{ .Permalink }}"><h3 class="font-semibold text-lg tracking-tight">{{ .LinkTitle }}</h3></a>
                       </div>
                       {{ with .Params.description }}
-                        <div class="w-[30%]">{{ . }}</div>
+                        <div class="lg:w-[30%]">{{ . }}</div>
                       {{ end }}
                       {{ if .Summary }}
                         <div class="flex-1 hidden">{{ .Summary }} <a class="text-green-500 hover:text-green-600" href="{{ .Permalink }}">Mere &#8594;</a></div>
                       {{ end }}
                       {{ with .Params.vimeo }}
-                      <div class="w-[7%]">
+                      <div class="lg:w-[7%]">
                         <a class="hover:text-green-500 text-sm " href="#" title="Video" @click.prevent="videoId = '{{ . }}'; showModal = true">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 flex-none">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -66,7 +66,7 @@
                         </a>
                       </div>
                       {{ end }}
-                      <div class="w-[20%] flex flex-col gap-1">
+                      <div class="lg:w-[20%] flex flex-col gap-1">
                         {{ range .Params.downloads }}
                           <a class="hover:text-green-500 flex items-center space-x-1 text-sm" target="_blank" href="{{ .url | absURL }}">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-none">
@@ -76,7 +76,7 @@
                           </a>
                         {{ end }}
                       </div>
-                      <div class="w-[20%] flex flex-col gap-1">
+                      <div class="lg:w-[20%] flex flex-col gap-1">
                         {{ range .Params.reference }}
                           <a class="hover:text-green-500 text-sm" href="{{ $.Permalink }}#{{ anchorize (replace . "." "-") }}">{{ . }}</a>
                         {{ end }}
