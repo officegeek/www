@@ -1752,16 +1752,12 @@ select {
   margin-right: 0.5rem;
 }
 
-.mb-5 {
-  margin-bottom: 1.25rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 
 .mb-6 {
   margin-bottom: 1.5rem;
-}
-
-.mt-2 {
-  margin-top: 0.5rem;
 }
 
 .mt-6 {
@@ -1830,6 +1826,10 @@ select {
 
 .mb-8 {
   margin-bottom: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
 }
 
 .block {
@@ -1948,6 +1948,22 @@ select {
   width: 2rem;
 }
 
+.w-\[23\%\] {
+  width: 23%;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[7\%\] {
+  width: 7%;
+}
+
+.w-\[20\%\] {
+  width: 20%;
+}
+
 .w-9 {
   width: 2.25rem;
 }
@@ -2000,56 +2016,20 @@ select {
   width: 6rem;
 }
 
-.w-\[10rem\] {
-  width: 10rem;
-}
-
-.w-\[20\%\] {
-  width: 20%;
+.w-\[25\%\] {
+  width: 25%;
 }
 
 .w-\[10\%\] {
   width: 10%;
 }
 
-.w-\[15rem\] {
-  width: 15rem;
+.w-\[8\%\] {
+  width: 8%;
 }
 
-.w-\[25\%\] {
-  width: 25%;
-}
-
-.w-\[5\%\] {
-  width: 5%;
-}
-
-.w-\[15\%\] {
-  width: 15%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
-}
-
-.w-\[23\%\] {
-  width: 23%;
-}
-
-.w-\[7\%\] {
-  width: 7%;
-}
-
-.min-w-\[10rem\] {
-  min-width: 10rem;
-}
-
-.min-w-\[20\%\] {
-  min-width: 20%;
-}
-
-.min-w-\[10\%\] {
-  min-width: 10%;
+.w-\[33\%\] {
+  width: 33%;
 }
 
 .max-w-md {
@@ -3061,6 +3041,11 @@ select {
   color: rgb(34 197 94 / var(--tw-text-opacity));
 }
 
+.text-neutral-600 {
+  --tw-text-opacity: 1;
+  color: rgb(82 82 82 / var(--tw-text-opacity));
+}
+
 .text-neutral-500 {
   --tw-text-opacity: 1;
   color: rgb(115 115 115 / var(--tw-text-opacity));
@@ -3074,11 +3059,6 @@ select {
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
-}
-
-.text-neutral-600 {
-  --tw-text-opacity: 1;
-  color: rgb(82 82 82 / var(--tw-text-opacity));
 }
 
 .text-red-600 {
@@ -3827,16 +3807,12 @@ h2 em {
     display: none;
   }
 
-  .lg\:w-0 {
-    width: 0px;
+  .lg\:w-\[23\%\] {
+    width: 23%;
   }
 
   .lg\:w-\[30\%\] {
     width: 30%;
-  }
-
-  .lg\:w-\[23\%\] {
-    width: 23%;
   }
 
   .lg\:w-\[7\%\] {
@@ -3845,6 +3821,26 @@ h2 em {
 
   .lg\:w-\[20\%\] {
     width: 20%;
+  }
+
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:w-\[25\%\] {
+    width: 25%;
+  }
+
+  .lg\:w-\[10\%\] {
+    width: 10%;
+  }
+
+  .lg\:w-\[8\%\] {
+    width: 8%;
+  }
+
+  .lg\:w-\[33\%\] {
+    width: 33%;
   }
 
   .lg\:max-w-7xl {
@@ -3995,10 +3991,6 @@ h2 em {
 
   .lg\:pt-20 {
     padding-top: 5rem;
-  }
-
-  .lg\:pr-20 {
-    padding-right: 5rem;
   }
 
   .lg\:pt-3 {
