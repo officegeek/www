@@ -1,9 +1,11 @@
 {{define "main"}}
 <div class="bg-white px-4 sm:px-6 lg:px-8">
   <div class="mx-auto max-w-7xl py-8">
-    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold lg:leading-tight text-gray-900 capitalize mb-5">{{ .Title }}</h1>
-
-    <div class="xl:sticky top-0 bg-white py-4 border-b">
+    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold lg:leading-tight text-gray-900 capitalize">{{ .Title }}</h1>
+    {{ with .Params.description }}
+      <p class="mt-2 text-neutral-600">{{ . }}</p>
+    {{ end }}
+    <div class="xl:sticky top-0 bg-white py-4 border-b mt-5">
       <div class="flex flex-col md:flex-row justify-between gap-4 mb-6">
         {{- with site.Taxonomies.funktioner_kategorier -}}
           <div id="filter-buttons" class="flex gap-2 flex-wrap">
@@ -23,12 +25,12 @@
       </div>
 
       <div class="flex-col md:flex-row gap-3 sm:gap-8 hidden md:flex uppercase text-xs text-neutral-500 font-medium">
-        <div class="min-w-[10rem]">Funktioner</div>
-        <div class="min-w-[20%]">Beskrivelse</div>
-        <div class="flex-1">Eksempler</div>
-        <div>Video</div>
-        <div class="min-w-[10%]">Downloads</div>
-        <div class="min-w-[10%]">Reference</div>
+        <div class="w-[23%]">Funktioner</div>
+        <div class="w-[30%]">Beskrivelse</div>
+        <div class="flex-1 hidden">Eksempler</div>
+        <div class="w-[7%]">Video</div>
+        <div class="w-[20%]">Downloads</div>
+        <div class="w-[20%]">Reference</div>
       </div>
     </div>
 
@@ -37,32 +39,34 @@
         <div class="functions gap-6 grid mt-4">
           {{- range $termName, $weightedPages := . -}}
             {{ $termPage := site.GetPage (printf "/funktioner_kategorier/%s" $termName) }}
-            {{- with $termPage -}}
-              <h2 class="category {{ lower (replace .LinkTitle " " "-") }} font-semibold leading-tight md:leading-tight text-green-500 text-3xl pt-5">{{ .LinkTitle }}</h2>
+            {{- with $termPage -}}  
+              <h2 class="category {{ anchorize (replace .LinkTitle "." "-") }} font-semibold leading-tight md:leading-tight text-green-500 text-3xl pt-5">{{ .LinkTitle }}</h2>
               {{ $category := .LinkTitle }}
               {{ range $weightedPages }}
                 {{ if eq .Section "funktioner" }}
-                  <div id="{{ lower (replace .LinkTitle " " "-") }}" class="function func-{{ lower (replace $category " " "-") }} {{ lower (replace $category " " "-") }} {{ lower (replace .LinkTitle " " "-") }} flex border-b pb-6 scroll-mt-4 xl:scroll-mt-40">
+                  <div id="{{ anchorize (replace .LinkTitle "." "-") }}" class="function func-{{ anchorize (replace $category "." "-") }} {{ anchorize (replace $category "." "-") }} {{ anchorize (replace .LinkTitle "." "-") }} flex border-b pb-6 scroll-mt-4 xl:scroll-mt-40">
 
-                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-8">
-                      <div class="min-w-[10rem]">
+                    <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 w-full">
+                      <div class="lg:w-[23%]">
                         <a class="hover:text-green-500" href="{{ .Permalink }}"><h3 class="font-semibold text-lg tracking-tight">{{ .LinkTitle }}</h3></a>
                       </div>
                       {{ with .Params.description }}
-                        <div class="min-w-[20%]">{{ . }}</div>
+                        <div class="lg:w-[30%]">{{ . }}</div>
                       {{ end }}
                       {{ if .Summary }}
-                        <div class="flex-1">{{ .Summary }} <a class="text-green-500 hover:text-green-600" href="{{ .Permalink }}">Mere &#8594;</a></div>
+                        <div class="flex-1 hidden">{{ .Summary }} <a class="text-green-500 hover:text-green-600" href="{{ .Permalink }}">Mere &#8594;</a></div>
                       {{ end }}
                       {{ with .Params.vimeo }}
-                      <a class="hover:text-green-500 text-sm " href="#" title="Video" @click.prevent="videoId = '{{ . }}'; showModal = true">
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 flex-none">
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                          <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
-                        </svg>                
-                      </a>
+                      <div class="lg:w-[7%]">
+                        <a class="hover:text-green-500 text-sm " href="#" title="Video" @click.prevent="videoId = '{{ . }}'; showModal = true">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-9 h-9 flex-none">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z" />
+                          </svg>                
+                        </a>
+                      </div>
                       {{ end }}
-                      <div class="min-w-[10%] flex flex-col gap-1">
+                      <div class="lg:w-[20%] flex flex-col gap-1">
                         {{ range .Params.downloads }}
                           <a class="hover:text-green-500 flex items-center space-x-1 text-sm" target="_blank" href="{{ .url | absURL }}">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 flex-none">
@@ -72,9 +76,9 @@
                           </a>
                         {{ end }}
                       </div>
-                      <div class="min-w-[10%] flex flex-col gap-1">
+                      <div class="lg:w-[20%] flex flex-col gap-1">
                         {{ range .Params.reference }}
-                          <a class="hover:text-green-500 text-sm" href="{{ $.Permalink }}#{{ lower . }}">{{ . }}</a>
+                          <a class="hover:text-green-500 text-sm" href="{{ $.Permalink }}#{{ anchorize (replace . "." "-") }}">{{ . }}</a>
                         {{ end }}
                       </div>
                     </div>

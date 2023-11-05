@@ -21,7 +21,7 @@
           </a>
         {{ end }}
       </div>
-      <div class="lg:pr-20 lg:pt-3">
+      <div class="lg:pt-3">
         {{ if .Params.downloads }}
           <div class="uppercase text-sm text-neutral-500 font-medium mb-2">Downloads</div>
           <div class="flex flex-col gap-1 mb-6">
@@ -39,7 +39,7 @@
           <div class="uppercase text-sm text-neutral-500 font-medium mb-2">Reference</div>
           <div class="flex flex-col gap-1">
             {{ range .Params.reference }}
-              <a class="hover:text-green-500 text-base" href="{{ $.Site.BaseURL }}funktioner/{{ lower . }}">{{ . }}</a>
+              <a class="hover:text-green-500 text-base" href="{{ $.Site.BaseURL }}funktioner/{{ anchorize (replace . "." "-") }}">{{ . }}</a>
             {{ end }}
           </div>
         {{ end }}
