@@ -18,6 +18,7 @@ reference:
 - ER.TOM
 - ER.ULIGE
 - HVIS
+- HVIS.FEJL
 funktioner_kategorier:
 - Oplysninger
 ---
@@ -26,9 +27,17 @@ funktioner_kategorier:
 
 <!--more-->
 
-**ER.FEJL** kan med fordel bruges i kombination med **HVIS**-funktionen for at håndtere fejl i data. For eksempel, hvis du vil undgå fejl i en rapport eller i en beregning, kan du bruge ER.FEJL til at tjekke for fejl først og derefter beslutte, hvad der skal gøres, hvis der er en fejl.
+    =ER.FEJL(A1)
 
-## Eksempel - 
+Hvis celle **A1** indeholder en fejl som *#DIV/0!, #VALUE!, #REF!, #NAME?, #NUM!*, eller *#NULL!*, vil denne formel returnere **SAND**. 
+
+Hvis **A1** indeholder **#N/A** eller **ikke** er en **fejl**, returnerer den **FALSK**.
+
+**ER.FEJL** kan med fordel bruges i kombination med **HVIS**-funktionen for at håndtere fejl i data.
+
+For eksempel, hvis du vil undgå fejl i en rapport eller i en beregning, kan du bruge **ER.FEJL** til at tjekke for fejl først og derefter beslutte, hvad der skal gøres, hvis der er en fejl.
+
+## Eksempel
 
 
 
