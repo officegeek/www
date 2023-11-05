@@ -1,4 +1,4 @@
 ---
 title: Funktioner
-description: Some lorem description
+description: Dette er en oversigt over Excel funktioner som jeg bruge i mine kurser.
 ---
