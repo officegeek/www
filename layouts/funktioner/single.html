@@ -88,7 +88,8 @@
     <h2 class="text-3xl sm:text-4xl font-semibold lg:leading-tight text-gray-900">Flere funktioner</h2>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 mt-8 lg:mt-10">
       {{ $posts := where site.RegularPages "Section" "funktioner" }}
-      {{ range first 2 (where $posts "Title" "!=" .Title) }}
+      {{ $filtered := where $posts ".Params.funktioner_kategorier" "intersect" .Params.funktioner_kategorier }}
+      {{ range first 2 (where $filtered "Title" "!=" .Title) }}
         <div class="bg-muted rounded-xl overflow-hidden p-6">
           <div class="flex-1">
             <a href="{{ .Permalink }}" title="{{ .Title }}" class="mt-2 block">
