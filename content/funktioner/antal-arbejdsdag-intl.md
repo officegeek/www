@@ -1,7 +1,7 @@
 ---
 title: ANTAL.ARBEJDSDAGE.INTL
 description: Find dato plus et antal arbejdsdage.
-vimeo: 335893726
+vimeo: 881357578
 downloads: 
 - text: File arbejdsdage.xlsx
   url: files/funktioner/arbejdsdage.xlsx
@@ -28,7 +28,7 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE.INTL**
 - **[weekend]**: En, valgfri, kode eller et streng, der angiver hvilke dage der er weekender.
 - **[feriedage]**: En valgfri liste over datoer, der skal betragtes som fridage/helligdage og derfor ikke tælles som arbejdsdage.
 
-*Weekend-koden* kan være et tal eller en streng, der angiver hvilke dage der er weekender:
+*Weekend-koden* kan være et **tal** (*1-7*) eller en **streng** (*0000110*), der angiver hvilke dage der er weekender:
 
 ### Weekend tal
 
@@ -49,14 +49,14 @@ Her er syntaksen for **ANTAL.ARBEJDSDAGE.INTL**
 | 16          | kun fredag      |
 | 17          | kun lørdag      |
 
-### Streng
-- Strengen består af syv tegn (*0 eller 1*) for hver dag i ugen, startende med mandag, hvor 
+### Weekend Streng
+- Strengen består af syv tegn (*0 eller 1*) for hver dag i ugen, startende med **mandag**, hvor 
   - "**1**" angiver en *fridag*
   - "**0**" angiver en *arbejdsdag*.
 - **0000011** resulterer i en weekend, der er *lørdag* og *søndag*.
 
 ## Eksempel
-Du vil finde datoen 10 arbejdsdage fra den *1. marts 2023*, og i din organisation betragtes *fredag* og *lørdag* som weekender. Der er en helligdag den *8. marts*. 
+Du vil finde datoen *10* arbejdsdage fra den *1. marts 2023*, og i din organisation betragtes *fredag* og *lørdag* som weekender. Der er en helligdag den *8. marts*. 
 
 ![](/image/arbejdsdag-intl.jpg)
 
