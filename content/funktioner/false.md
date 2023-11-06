@@ -1,23 +1,35 @@
 ---
-title: "FALSE"
-description: Generate the logical value FALSE
+title: "FALSK"
+description: Retunere altid værdien FALSK
 vimeo: 335893726
 downloads: 
 - text: File xyz
   url: files/blog/chartgpt.xlsm
 reference: 
-  - CHAR
-  - DATEDIF
+  - SAND
+  - HVIS
+  - OG
+  - ELLER
 funktioner_kategorier:
 - Logik
 ---
 
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+FALSK kræver **ingen argumenter** og **returnerer altid** den logiske værdi **FALSK**. Denne funktion er ofte brugt i formler, hvor en logisk værdi er nødvendig, især i kombination med logiske funktioner som *HVIS*, *OG*, og *ELLER*.
 
 <!--more-->
 
-## Data i en tabel
-![Data ikke i en tabel](/images/blog/lobende-sum-tabel.jpg)
+Her er et eksempel på brugen af FALSK:
 
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal.
+    =HVIS(A1 > 10; SAND; FALSK)
+
+I dette eksempel vil funktionen HVI**S tjekke, om værdien i celle A1 er større end 10. Hvis betingelsen er sand, returnerer den SAND, og hvis betingelsen er falsk, returnerer den FALSK.
+
+FALSK-funktionen kan også bruges direkte i en celle for at sætte cellens værdi til FALSE, som så:
+
+    =FALSK()
+
+Dette vil simpelthen sætte cellens værdi til den logiske værdi FALSK.
+
+## UK
+FALSE
