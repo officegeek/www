@@ -22,6 +22,8 @@ Her er et eksempel på brugen af **FALSK**:
 
     =HVIS(C4 > 20; SAND; FALSK)
 
+![](/image/falsk.jpg)
+
 I dette eksempel vil funktionen **HVIS** tjekke, om værdien i celle *A1* er større end *20*. Hvis betingelsen er *sand*, returnerer den **SAND**, og hvis betingelsen er *falsk*, returnerer den **FALSK**.
 
 FALSK-funktionen kan også bruges direkte i en celle for at sætte cellens værdi til FALSE, som så:

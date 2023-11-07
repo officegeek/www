@@ -25,12 +25,12 @@ Funktionen tager tre argumenter:
 
 Her er syntaksen for HVIS():
 
-    =HVIS(*betingelse*; *[sandt_resultat]*; *[falsk_resultat]*)
+    =HVIS(betingelse; [sandt_resultat]; [falsk_resultat])
 
 ## Salgs eksempel
 Antag, at du har en liste over sælgere og deres salg, og du vil markere alle tal over 100.000 med teksten "**Godt salg**" og de andre med "**Forbedring nødvendig**".
 
-![](/static/image/hvis.jpg)
+![](/image/hvis.jpg)
 
 Du kan bruge følgende **HVIS()**-formel i kolonne D:
 

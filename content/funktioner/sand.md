@@ -22,6 +22,8 @@ Her er et eksempel på brugen af **SAND**:
 
     =HVIS(C4 <> 20; SAND; FALSK)
 
+![](/image/sand.jpg)
+
 I dette eksempel vil funktionen **HVIS** tjekke, om værdien i celle *A1* er mindre end *20*. Hvis betingelsen er *sand*, returnerer den **SAND**, og hvis betingelsen er *falsk*, returnerer den **FALSK**.
 
 SAND-funktionen kan også bruges direkte i en celle for at sætte cellens værdi til SAND, som så:
