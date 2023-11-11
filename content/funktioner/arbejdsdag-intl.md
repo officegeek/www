@@ -3,7 +3,7 @@ title: ARBEJDSDAG.INTL
 description: Find dato plus et antal arbejdsdage, med styring af weekender. 
 vimeo: 881355892
 downloads: 
-- text: File arbejdsdage.xlsx
+- text: Fil arbejdsdage.xlsx
   url: files/funktioner/arbejdsdage.xlsx
 reference: 
 - ARBEJDSDAG

@@ -1,9 +1,9 @@
 ---
 title: "HVIS"
 description: Returnerer en værdi baseret på, om en betingelse er sand eller falsk
-vimeo: 335893726
+vimeo: 883587981
 downloads: 
-- text: File xyz
+- text: Fil logik.xlsx
   url: files/funktioner/logik.xlsx
 reference: 
   - HVIS.FEJL

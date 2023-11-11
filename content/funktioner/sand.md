@@ -1,9 +1,9 @@
 ---
 title: "SAND"
 description: Retunere altid værdien SAND
-vimeo: 335893726
+vimeo: 883585908
 downloads: 
-- text: File xyz
+- text: Fil logik.xlsx
   url: files/funktioner/logik.xlsx
 reference: 
   - FALSK
@@ -30,7 +30,7 @@ SAND-funktionen kan også bruges direkte i en celle for at sætte cellens værdi
 
     =SAND()
 
-Dette vil simpelthen sætte cellens værdi til den logiske værdi FALSK.
+Dette vil simpelthen sætte cellens værdi til den logiske værdi **SAND**.
 
 ## UK
 TRUE

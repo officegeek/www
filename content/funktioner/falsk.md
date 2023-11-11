@@ -3,7 +3,7 @@ title: "FALSK"
 description: Retunere altid værdien FALSK
 vimeo: 883507578
 downloads: 
-- text: File xyz
+- text: Fil logik.xlsx
   url: files/funktioner/logik.xlsx
 reference: 
   - SAND
@@ -30,7 +30,7 @@ FALSK-funktionen kan også bruges direkte i en celle for at sætte cellens værd
 
     =FALSK()
 
-Dette vil simpelthen sætte cellens værdi til den logiske værdi FALSK.
+Dette vil simpelthen sætte cellens værdi til den logiske værdi **FALSK**.
 
 ## UK
 FALSE

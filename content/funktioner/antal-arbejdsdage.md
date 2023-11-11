@@ -3,7 +3,7 @@ title: ANTAL.ARBEJDSDAGE
 description: Find antallet af arbejdsdage mellem to datoer, med styring af weekender.
 vimeo: 881354144
 downloads: 
-- text: File arbejdsdage.xlsx
+- text: Fil arbejdsdage.xlsx
   url: files/funktioner/arbejdsdage.xlsx
 reference: 
 - ARBEJDSDAG
